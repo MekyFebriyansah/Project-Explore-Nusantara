@@ -1,27 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="assets/css/masuk.css" />
-  </head>
-  <body>
-    <div class="masuk">
-      <div class="div">
-        <div class="overlap">
-          <img class="decore" src="img/decore.svg" />
-          <img class="top-nav" src="img/top-nav.png" />
-          <div class="image">
-            <div class="overlap-group">
-              <img class="plane" src="img/plane.png" />
-              <img class="traveller" src="img/traveller-1.png" />
-              <img class="img" src="img/image.png" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk</title>
+    <link rel="stylesheet" href="{{asset('assets/css/daftarMasuk.css')}}">
+    <link href='https://fonts.googleapis.com/css?family=DM Serif Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body>
+    <div id="frameMasuk">
+        <div id="masuknyaFrame">
+            <div id="logoMasukDaftar">
+                <img src="src/logoMasukDaftar.png" alt="logo Masuk Daftar">
             </div>
-          </div>
+            <div id="kotakMasuk">
+                <div class="judulMasuk">Masuk</div>
+                <div class="inputanMasuk">
+                    <form action="masuk.php" method="post">
+                        <input type="email" placeholder="Email" name="email" required>
+                        <input type="text" placeholder="Password" name="password" required>
+                        <button type="submit" name="login" value="login">Login</button>
+                        <div class="tidakMemilikiAkun">Tidak mempunyai akun? <a href="daftar.php">Daftar disini</a></div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="text-wrapper">ExploreNusantara</div>
-        <div class="group"></div>
-      </div>
     </div>
-  </body>
+</body>
 </html>

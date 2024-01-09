@@ -2,9 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="assets/css/welcome.css" />
-    <link rel="stylesheet" href="assets/css/welcome1.css" />
+    <link rel="stylesheet" href="{{ asset('assets/css/welcome.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/welcome1.css') }}" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
@@ -16,14 +15,14 @@
           ExploreNusantara
         </div>
         <div id="daftarMasuk">
-          <a href="/daftar" style="text-decoration: none">
+          <a href="{{ url('/daftar') }}" style="text-decoration: none">
           <div class="daftar">
             Daftar
           </div>
         </a>
-          <a href="/masuk" style="text-decoration: none">
+          <a href="{{ url('/masuk') }}" style="text-decoration: none">
           <div class="masuk">
-            Masuk
+            Masuk 
           </div>
         </a>
         </div>
@@ -41,7 +40,7 @@
       </div>
       <div id="kontenHomePage">
         <div class="kotakKonten">
-          <div class="kotakKontenKiri"><img src="assets/img/konten1.png" alt=""></div>
+          <div class="kotakKontenKiri"><img src="{{ asset('assets/img/konten1.png') }}" alt=""></div>
           <div class="kotakKontenKanan">
             <div class="nomorKontenHome">01</div>
             <div class="judulKonten">Wakatobi, Sulawesi</div>
@@ -54,7 +53,7 @@
             <div class="judulKonten1">Raja Ampat, Papua Barat</div>
             <div class="deskripsiKonten1">Permata karang yang mengagumkan di Indonesia. Di antara pulau-pulau terpencil, tersembunyi kekayaan alam yang menakjubkan. Di darat, hamparan pantai pasir putih serta hutan hijau menawarkan keindahan alam yang memesona.</div>
           </div>
-          <div class="kotakKontenKiri1"><img src="assets/img/konten2.png" alt=""></div>
+          <div class="kotakKontenKiri1"><img src="{{ asset('assets/img/konten2.png') }}" alt=""></div>
         </div>
       </div>
       <div id="artikelDanTentangKami">

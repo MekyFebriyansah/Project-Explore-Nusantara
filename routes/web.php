@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\daftarController;
+use App\Http\Controllers\masukController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +19,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/daftar', [daftarController::class, 'pindah_daftar']);
+
+Route::get('/masuk', [masukController::class, 'pindah_masuk'] );
