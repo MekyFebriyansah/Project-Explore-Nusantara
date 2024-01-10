@@ -1,13 +1,13 @@
 #judulKelasPahlawan {
-    color: #292F36;
+    color: #292f36;
     font-family: DM Serif Display;
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 125%
-  }
-  
-  #frameJudulKelasPahlawan {
+    line-height: 125%;
+}
+
+#frameJudulKelasPahlawan {
     display: flex;
     width: 29.4375rem;
     flex-direction: column;
@@ -16,32 +16,32 @@
     margin-top: 2.32rem;
     float: left;
     margin-left: 12.62rem;
-  }
-  
-  #frame {
+}
+
+#frame {
     width: 120rem;
     height: 100%;
-    background: #F0EDE0;
+    background: #f0ede0;
     margin: auto;
-  }
-  
-  #Navigasi a.active {
-    color: #D8A876;
-  }
-  
-  #Navigasi a:hover {
-    color: #D8A876;
+}
+
+#Navigasi a.active {
+    color: #d8a876;
+}
+
+#Navigasi a:hover {
+    color: #d8a876;
     transform: scale(1.1);
-    transition: transform 0.3s ease; 
-  }
-  
-  #Navigasi a.active:hover {
-    color: #D8A876;
+    transition: transform 0.3s ease;
+}
+
+#Navigasi a.active:hover {
+    color: #d8a876;
     transform: scale(1.1);
-    transition: transform 0.3s ease; 
-  }
-  
-  #Navigasi {
+    transition: transform 0.3s ease;
+}
+
+#Navigasi {
     width: 39.3125rem;
     float: right;
     justify-content: end;
@@ -49,76 +49,77 @@
     margin-top: 3.06rem;
     margin-bottom: 2.56rem;
     margin-right: 0.89rem;
-  }
-  
-  #Navigasi a{
+}
+
+#Navigasi a {
     text-decoration: none;
     margin-right: 2rem;
-    color: #292F36;;
+    color: #292f36;
     line-height: 125%;
     text-align: center;
     font-family: Jost;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
-  }
-  
-  #gambarHalamanUtama {
-    width:  114.9375rem;
+}
+
+#gambarHalamanUtama {
+    width: 114.9375rem;
     height: 60.5rem;
     border-radius: 6.25rem 0rem;
-    background: url(/src/gambarUtama.png), lightgray 50% / cover no-repeat;
+    background: url("/assets/img/daftarmasuk.png"),
+        lightgray 50% / cover no-repeat;
     float: none;
     display: flex;
     margin: auto;
-    mix-blend-mode: plus-darker;;
+    mix-blend-mode: plus-darker;
     flex-direction: column;
-  }
-  
-  #logoKelasPahlawan {
+}
+
+#logoKelasPahlawan {
     width: 17.375rem;
     height: 18.9375rem;
     display: flex;
     float: none;
     margin-bottom: -20rem;
     mix-blend-mode: normal;
-  }
-  
-  #logoKelasPahlawan a {
+}
+
+#logoKelasPahlawan a {
     width: 100%;
     height: 100%;
-  }
-  
-  #teksGambarHalaman {
-    color: #FFF;
+}
+
+#teksGambarHalaman {
+    color: #fff;
     text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
     font-family: DM Serif Display;
     font-size: 4.0625rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 125%; 
+    line-height: 125%;
     margin-top: 19.06rem;
     margin-right: 31.56rem;
     margin-left: 8.12rem;
     display: flex;
     width: 75.25rem;
     height: 10.125rem;
-  }
-  
-  #tombolGambarHalamanUtama:hover {
+}
+
+#tombolGambarHalamanUtama:hover {
     transform: scale(1.1);
-    transition: transform 0.3s ease; 
-  }
-  
-  #tombolGambarHalamanUtama{
+    transition: transform 0.3s ease;
+}
+
+#tombolGambarHalamanUtama {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 1.125rem;
-    background: #3D6299;
+    background: #3d6299;
     box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: Inter;
     font-size: 1.125rem;
@@ -131,15 +132,15 @@
     margin-left: 8.12rem;
     border: none;
     text-decoration: none;
-  }
-  
-  #deskripsiHalamanUtama {
+}
+
+#deskripsiHalamanUtama {
     display: flex;
     width: 111.375rem;
     height: 15.8125rem;
     flex-direction: column;
     justify-content: center;
-    color: #1E1E1E;
+    color: #1e1e1e;
     text-align: center;
     font-family: Jost;
     font-size: 2.5rem;
@@ -147,14 +148,14 @@
     font-style: normal;
     line-height: normal;
     margin: auto;
-  
-  }.tombolSlide {
+}
+.tombolSlide {
     width: 4.375rem;
     height: 4.375rem;
     margin: auto;
-  }
-  
-  .tombolLink {
+}
+
+.tombolLink {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,80 +165,79 @@
     padding: 0;
     background-color: transparent;
     cursor: pointer;
-  }
-  
-  .tombolLink:hover svg {
+}
+
+.tombolLink:hover svg {
     transform: scale(1.1);
-    transition: transform 0.3s ease; 
-  }
-  
-  .tombolLink svg {
-    fill: #D8A876;
-  }
-  
-  
-  #slideKonten {
+    transition: transform 0.3s ease;
+}
+
+.tombolLink svg {
+    fill: #d8a876;
+}
+
+#slideKonten {
     width: 117.25rem;
     height: 26.6875rem;
     display: flex;
     flex-direction: row;
-  }
-  
-  #konten {
+}
+
+#konten {
     display: flex;
     width: 71.875rem;
     justify-content: center;
     align-items: flex-start;
     gap: 1.25rem;
     margin: auto;
-  }
-  
-  .kontenAtas {
+}
+
+.kontenAtas {
     display: flex;
     margin-bottom: 1.91rem;
-  }
-  
-  .kotakKonten {
+}
+
+.kotakKonten {
     width: 23.125rem;
     height: 21.1875rem;
-    background: #FFF;
+    background: #fff;
     justify-content: center;
     border-radius: 2rem;
-  }
-  
-  .fotoProfil {
-    width: 4.375rem; 
-    height: 4.375rem; 
-    border-radius: 50%; 
+}
+
+.fotoProfil {
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 50%;
     overflow: hidden;
     margin-top: 2.63rem;
     margin-left: 2.31rem;
-  }
-  
-  .fotoProfil img {
+}
+
+.fotoProfil img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     float: left;
-  }
-  
-  .judulKomen {
-    color: #292F36;
+}
+
+.judulKomen {
+    color: #292f36;
     font-family: DM Serif Display;
     font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
     letter-spacing: 0.01375rem;
     float: right;
     width: 13.875rem;
     margin-top: 2.63rem;
     margin-left: 1.25rem;
-  }
-  
-  .komentar {
+}
+
+.komentar {
     width: 18.5rem;
-    color: #4D5053;
+    color: #4d5053;
     font-family: Jost;
     font-size: 1.375rem;
     font-style: normal;
@@ -246,20 +246,20 @@
     letter-spacing: 0.01375rem;
     float: none;
     margin: auto;
-  }
-  
-  #yangOrangPikirkan {
+}
+
+#yangOrangPikirkan {
     width: 109.5rem;
     height: 42.4375rem;
-    background: #D6CBB6;
+    background: #d6cbb6;
     border-radius: 2rem;
     margin: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-  
-  .judulOrangPikirkan {
+}
+
+.judulOrangPikirkan {
     color: #000;
     text-align: center;
     font-family: DM Serif Display;
@@ -272,31 +272,31 @@
     height: 7.875rem;
     margin-top: 2.31rem;
     margin-bottom: 4.44rem;
-  }
-  
-  .isiOrangPikirkan {
+}
+
+.isiOrangPikirkan {
     display: flex;
     width: 96.4375rem;
     height: 21.1875rem;
     flex-direction: column;
     justify-content: center;
-    color: #1E1E1E;
+    color: #1e1e1e;
     text-align: justify;
     font-family: Jost;
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-  }
-  
-  #garisBawahBesar hr{
+}
+
+#garisBawahBesar hr {
     width: 108rem;
     height: 0.3125rem;
     background: #000;
     margin-top: 6.19rem;
-  }
-  
-  #faqBesar {
+}
+
+#faqBesar {
     color: #000;
     font-family: DM Serif Display;
     font-size: 6rem;
@@ -306,9 +306,9 @@
     letter-spacing: 0.12rem;
     margin-left: 9rem;
     margin-bottom: 4.75rem;
-  }
-  
-  #pertanyaanUtama {
+}
+
+#pertanyaanUtama {
     color: #000;
     font-family: Jost;
     font-size: 3rem;
@@ -318,16 +318,16 @@
     letter-spacing: 0.06rem;
     margin-left: 8.44rem;
     margin-top: 3.38rem;
-  }
-  
-  #pertanyaanUtama hr {
+}
+
+#pertanyaanUtama hr {
     width: 64.688rem;
     height: 0.125rem;
     background: #000;
     margin-left: 0;
-  }
-  
-  #gambarBawah {
+}
+
+#gambarBawah {
     width: 120rem;
     height: 22.0625rem;
     background: url(/src/gambarBawah.png), lightgray 50% / cover no-repeat;
@@ -336,11 +336,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .judulGambarBawah {
+}
+
+.judulGambarBawah {
     width: 35.5625rem;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: DM Serif Display;
     font-size: 3.125rem;
@@ -349,36 +349,36 @@
     line-height: 125%; /* 3.90625rem */
     margin-top: 8.12rem;
     margin-bottom: 2rem;
-  }
-  
-  #frameDaftar {
+}
+
+#frameDaftar {
     width: 120rem;
     height: 100%;
     margin: auto;
-    background: #F0EDE0;
-  }
-  
-  #frameMasuk {
+    background: #f0ede0;
+}
+
+#frameMasuk {
     width: 120rem;
     height: 100%;
-    background: #F0EDE0;
+    background: #f0ede0;
     margin: auto;
-  }
-  
-  .tombolGambarBawah:hover {
-      transform: scale(1.1);
-      transition: transform 0.3s ease; 
-    }
-  
-  .tombolGambarBawah{
+}
+
+.tombolGambarBawah:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.tombolGambarBawah {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 1.125rem;
-    background: #3D6299;
+    background: #3d6299;
     box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: Inter;
     font-size: 1.125rem;
@@ -390,37 +390,36 @@
     height: 4.68rem;
     border: none;
     text-decoration: none;
-  }
-  
-  #logoMasukDaftar {
+}
+
+#logoMasukDaftar {
     width: 61.125rem;
     height: 41.75rem;
-    
-  }
-  
-  #logoMasukDaftar img {
+}
+
+#logoMasukDaftar img {
     width: 100%;
-    height:100%;
-  }
-  
-  #kotakMasuk {
+    height: 100%;
+}
+
+#kotakMasuk {
     width: 109.5rem;
     height: 42.4375rem;
-    background: #D6CBB6;
+    background: #d6cbb6;
     border-radius: 2rem;
     margin-top: 2.81rem;
-  }
-  
-  #masuknyaFrame {
+}
+
+#masuknyaFrame {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
-  }
-  
-  .judulMasuk {
-    color: #3D6299;
+}
+
+.judulMasuk {
+    color: #3d6299;
     text-align: center;
     font-family: DM Serif Display;
     font-size: 3.125rem;
@@ -430,17 +429,17 @@
     letter-spacing: 0.0625rem;
     margin-top: 1.5rem;
     margin-bottom: 3.94rem;
-  }
-  
-  .inputanMasuk form{
+}
+
+.inputanMasuk form {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .inputanMasuk input {
+}
+
+.inputanMasuk input {
     width: 64.74988rem;
-    color: #3D6299;
+    color: #3d6299;
     font-family: Jost;
     font-size: 2.25rem;
     font-style: normal;
@@ -452,24 +451,24 @@
     border-left: none;
     border-right: none;
     margin-top: 2rem;
-  }
-  
-  .inputanMasuk button {
+}
+
+.inputanMasuk button {
     width: 64.74988rem;
     height: 4.14338rem;
     border-radius: 0.5rem;
-    background: #3D6299;
+    background: #3d6299;
     margin-top: 3.04rem;
-    color: #FFF;
+    color: #fff;
     font-family: Jost;
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2.5rem; /* 125% */
     letter-spacing: 0.16rem;
-  }
-  
-  .tidakMemilikiAkun {
+}
+
+.tidakMemilikiAkun {
     color: #000;
     font-family: Jost;
     font-size: 1.5rem;
@@ -478,10 +477,10 @@
     line-height: 2.5rem; /* 166.667% */
     letter-spacing: 0.12rem;
     margin-top: 1.31rem;
-  }
-  
-  .tidakMemilikiAkun a {
-    color: #3D6299;
+}
+
+.tidakMemilikiAkun a {
+    color: #3d6299;
     font-family: Jost;
     font-size: 1.5rem;
     text-decoration: none;
@@ -489,12 +488,12 @@
     font-weight: 400;
     line-height: 2.5rem;
     letter-spacing: 0.12rem;
-  }
+}
 
-  #kotakDaftar {
+#kotakDaftar {
     width: 109.5rem;
     height: 79.625rem;
-    background: #D6CBB6;
+    background: #d6cbb6;
     border-radius: 2rem;
     margin-top: 2.81rem;
     align-items: center;
@@ -513,8 +512,8 @@
     width: 40.05906rem;
     height: 4.87775rem;
     border-radius: 0.5rem;
-    border: 1px solid #5B86E5;
-    background: #FFF;
+    border: 1px solid #5b86e5;
+    background: #fff;
     color: #000;
     font-family: Jost;
     font-size: 1.5rem;
@@ -537,22 +536,21 @@
     margin-bottom: 10.01rem;
 }
 
-.atau hr{
-    background: #3D6299;
+.atau hr {
+    background: #3d6299;
     width: 53.0625rem;
     height: 0.4375rem;
 }
 
-
-.inputanDaftar form{
+.inputanDaftar form {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .inputanDaftar input {
+}
+
+.inputanDaftar input {
     width: 64.74988rem;
-    color: #3D6299;
+    color: #3d6299;
     font-family: Jost;
     font-size: 2.25rem;
     font-style: normal;
@@ -564,15 +562,15 @@
     border-left: none;
     border-right: none;
     margin-top: 2rem;
-  }
-  
-  .inputanDaftar button {
+}
+
+.inputanDaftar button {
     width: 64.74988rem;
     height: 4.14338rem;
     border-radius: 0.5rem;
-    background: #3D6299;
+    background: #3d6299;
     margin-top: 3.04rem;
-    color: #FFF;
+    color: #fff;
     font-family: Jost;
     font-size: 2rem;
     font-style: normal;
@@ -580,9 +578,9 @@
     line-height: 2.5rem; /* 125% */
     letter-spacing: 0.16rem;
     margin-top: 7.39rem;
-  }
-  
-  .sudahMemilikiAkun {
+}
+
+.sudahMemilikiAkun {
     color: #000;
     font-family: Jost;
     font-size: 1.5rem;
@@ -591,10 +589,10 @@
     line-height: 2.5rem; /* 166.667% */
     letter-spacing: 0.12rem;
     margin-top: 1.31rem;
-  }
-  
-  .sudahMemilikiAkun a {
-    color: #3D6299;
+}
+
+.sudahMemilikiAkun a {
+    color: #3d6299;
     font-family: Jost;
     font-size: 1.5rem;
     text-decoration: none;
@@ -602,30 +600,30 @@
     font-weight: 400;
     line-height: 2.5rem;
     letter-spacing: 0.12rem;
-  }
+}
 
-  #frameHomePage {
+#frameHomePage {
     width: 120rem;
     height: 150%;
-    background: linear-gradient(180deg, #FFF 0%, #F0EDE0 30.38%);
+    background: linear-gradient(180deg, #fff 0%, #f0ede0 30.38%);
     margin: auto;
-  }
+}
 
-  #bannerAtasDisplay {
+#bannerAtasDisplay {
     margin-top: 12rem;
     display: flex;
-  }
+}
 
-  .keteranganAtasDisplay {
+.keteranganAtasDisplay {
     width: 71.4375rem;
     height: 59.4375rem;
     fill: rgba(57, 168, 230, 0.28);
     background: url(/src/vectorhome.png) no-repeat;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .judulBesar {
+.judulBesar {
     width: 49.875rem;
     height: 15.63938rem;
     color: #000;
@@ -638,11 +636,10 @@
     line-height: 120%; /* 4.8rem */
     margin-left: 8rem;
     float: left;
-    
-  }
+}
 
-  .biru {
-    color: #3D6299;
+.biru {
+    color: #3d6299;
     font-family: DM Serif Display;
     font-size: 4rem;
     font-style: normal;
@@ -650,18 +647,18 @@
     line-height: 120%;
     float: right;
     display: flex;
-  }
+}
 
-  .krim{
-    color: #D8A876;
+.krim {
+    color: #d8a876;
     font-family: DM Serif Display;
     font-size: 4rem;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
-  }
+}
 
-  .deskripsiJudulBesar {
+.deskripsiJudulBesar {
     width: 50.6875rem;
     color: #022569;
     font-family: Jost;
@@ -670,49 +667,47 @@
     font-weight: 400;
     line-height: normal;
     margin-left: 8rem;
+}
 
-  }
-
-  .gambarAtasDisplay {
+.gambarAtasDisplay {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .gambarAtasDisplay1 {
+.gambarAtasDisplay1 {
     width: 35.3125rem;
     height: 57.5rem;
-  }
+}
 
-  .gambarAtasDisplay1 img {
+.gambarAtasDisplay1 img {
     width: 100%;
     height: 100%;
     border-radius: 14.5625rem 14.5625rem 0rem 0rem;
-    background: var(--Secondary, #FFBD39);
+    background: var(--Secondary, #ffbd39);
+}
 
-  }
-
-  .gambarAtasDisplay2 {
+.gambarAtasDisplay2 {
     width: 22rem;
     height: 33.125rem;
     border-radius: 10rem;
-    border: 6px solid #FFF;
+    border: 6px solid #fff;
     margin-top: -25rem;
     margin-left: 25rem;
-  }
+}
 
-  .gambarAtasDisplay2 img {
+.gambarAtasDisplay2 img {
     width: 100%;
     height: 100%;
-  }
+}
 
-  #bannerBawahDisplay {
+#bannerBawahDisplay {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .displayGambarKeteranganKiri {
+.displayGambarKeteranganKiri {
     display: flex;
     width: 60.5rem;
     height: 48.125rem;
@@ -721,34 +716,34 @@
     z-index: 3;
     background-repeat: no-repeat;
     flex-direction: column;
-  }
+}
 
-  .displayGambarTengah {
+.displayGambarTengah {
     width: 56.91781rem;
     height: 49.125rem;
     border-radius: 7.625rem 20rem 0rem 0rem;
-    background: #D9D9D9 / no-repeat;
+    background: #d9d9d9 / no-repeat;
     z-index: 2;
     margin-left: -70rem;
-  }
+}
 
-  .displayGambarKanan {
+.displayGambarKanan {
     width: 73.55013rem;
     height: 48.125rem;
     background-repeat: no-repeat;
     z-index: 1;
-    margin-left: -10.20rem;
+    margin-left: -10.2rem;
     border-radius: 2.625rem 0rem 0rem 0rem;
     background: url(/src/gambarBawah2.png), lightgray 50% / cover no-repeat;
-  }
+}
 
-  #judulDIsplayGambarKiri {
+#judulDIsplayGambarKiri {
     display: flex;
     width: 34.125rem;
     height: 9.5rem;
     flex-direction: column;
     justify-content: center;
-    color: #FFF;
+    color: #fff;
     font-family: DM Serif Display;
     font-size: 3.4375rem;
     font-style: normal;
@@ -756,17 +751,17 @@
     line-height: 125%; /* 4.29688rem */
     margin-left: 3.88rem;
     margin-top: 9.75rem;
-  }
+}
 
-  #artikelDanBerita {
+#artikelDanBerita {
     margin-top: 4.94rem;
     align-items: center;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .judulArtikel {
-    color: #292F36;
+.judulArtikel {
+    color: #292f36;
     text-align: center;
     font-family: DM Serif Display;
     font-size: 3.75rem;
@@ -775,10 +770,10 @@
     line-height: 125%; /* 4.6875rem */
     letter-spacing: 0.075rem;
     margin-bottom: 0.5rem;
-  }
+}
 
-  .deskripsiArtikel {
-    color: #4D5053;
+.deskripsiArtikel {
+    color: #4d5053;
     text-align: center;
     font-family: Jost;
     font-size: 1.75rem;
@@ -787,24 +782,24 @@
     line-height: 150%; /* 2.625rem */
     letter-spacing: 0.0175rem;
     width: 50.6875rem;
-  }
+}
 
-  #kontenArtikelDanBerita {
+#kontenArtikelDanBerita {
     display: flex;
     flex-direction: row;
     margin-top: 8.06rem;
     margin-bottom: 15rem;
-  }
+}
 
-  .kontenArtikelDanBerita {
+.kontenArtikelDanBerita {
     display: flex;
     width: 75.625rem;
     justify-content: center;
     align-items: flex-start;
     gap: 1.6875rem;
-  }
+}
 
-  .kotakKontenArtikeldanBerita {
+.kotakKontenArtikeldanBerita {
     display: inline-flex;
     flex-direction: column;
     padding: 1.3125rem;
@@ -812,28 +807,27 @@
     gap: 0.625rem;
     border-radius: 3.875rem;
     box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
-  }
+}
 
-  .gambarKontenArtikeldanBerita img{
+.gambarKontenArtikeldanBerita img {
     width: 100%;
     height: 100%;
     border-radius: 2.8125rem 2.8125rem 0rem 0rem;
-    background: #EAEAEA;
-  }
+    background: #eaeaea;
+}
 
-  .gambarKontenArtikeldanBerita {
+.gambarKontenArtikeldanBerita {
     width: 21.25rem;
     height: 18.07919rem;
-    
-  }
+}
 
-  .judulKontenArtikeldanBerita {
+.judulKontenArtikeldanBerita {
     display: flex;
     width: 21.25rem;
     height: 4.375rem;
     flex-direction: column;
     justify-content: center;
-    color: #292F36;
+    color: #292f36;
     font-family: DM Serif Display;
     font-size: 1.5625rem;
     font-style: normal;
@@ -841,19 +835,19 @@
     line-height: 125%; /* 1.95313rem */
     letter-spacing: 0.03125rem;
     margin-top: 1.31rem;
-  }
+}
 
-  .tanggalKontenArtikeldanBerita {
+.tanggalKontenArtikeldanBerita {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 1.88rem;
-  }
+}
 
-  .tanggal {
+.tanggal {
     width: 13.9375rem;
     height: 2.0625rem;
-    color: #4D5053;
+    color: #4d5053;
     font-family: Jost;
     font-size: 1rem;
     font-style: normal;
@@ -863,30 +857,29 @@
     text-transform: capitalize;
     margin-right: 3rem;
     display: flex;
+}
 
-  }
-  
-  .kotakKontenArtikeldanBeritaTengah {
+.kotakKontenArtikeldanBeritaTengah {
     display: inline-flex;
     padding: 1.3125rem;
     align-items: flex-start;
     gap: 0.625rem;
     border-radius: 3.875rem;
-    border: 1px solid #E7E7E7;
-    background: #F4F0EC;
+    border: 1px solid #e7e7e7;
+    background: #f4f0ec;
     box-shadow: 0px 100px 300px 0px rgba(255, 255, 255, 0.25);
     flex-direction: column;
-  }
+}
 
-  .tempatKontenArtikeldanBerita {
+.tempatKontenArtikeldanBerita {
     width: 7.75rem;
     height: 2.5625rem;
     border-radius: 0.5rem 0.5rem 0.5rem 0rem;
-    background: rgba(0, 0, 0, 0.50);
+    background: rgba(0, 0, 0, 0.5);
     flex-direction: column;
     justify-content: center;
     display: flex;
-    color: #FFF;
+    color: #fff;
     font-family: Jost;
     font-size: 1rem;
     font-style: normal;
@@ -897,38 +890,38 @@
     align-items: center;
     margin-top: -5rem;
     margin-bottom: 2.08rem;
-  }
+}
 
-  #kontenAngkaPencapaian {
+#kontenAngkaPencapaian {
     display: flex;
     width: 67.625rem;
     justify-content: center;
     align-items: flex-start;
     gap: 4.75rem;
     margin: auto;
-  }
+}
 
-  .tahunPengalaman {
+.tahunPengalaman {
     display: flex;
     width: 12rem;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     justify-content: center;
-  }
+}
 
-  .angkaTahunPengalaman {
-    color: #CDA274;
+.angkaTahunPengalaman {
+    color: #cda274;
     font-family: DM Serif Display;
     font-size: 5.3125rem;
     font-style: normal;
     font-weight: 400;
     line-height: 125%; /* 6.64063rem */
     letter-spacing: 0.10625rem;
-  }
+}
 
-  .keteranganTahunPengalaman {
-    color: #4D5053;
+.keteranganTahunPengalaman {
+    color: #4d5053;
     font-family: Jost;
     font-size: 1.175rem;
     font-style: normal;
@@ -937,10 +930,10 @@
     letter-spacing: 0.01375rem;
     align-items: center;
     text-align: center;
-  }
+}
 
-  .garis {
+.garis {
     width: 0.0625rem;
     height: 8.125rem;
-    background: #CDA274;
-  }
+    background: #cda274;
+}

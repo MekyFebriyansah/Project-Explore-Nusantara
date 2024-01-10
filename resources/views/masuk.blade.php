@@ -13,7 +13,7 @@
     <div id="frameMasuk">
         <div id="masuknyaFrame">
             <div id="logoMasukDaftar">
-                <img src="src/logoMasukDaftar.png" alt="logo Masuk Daftar">
+                <img src="{{ asset('assets/img/daftarmasuk.png') }}" alt="logo Masuk Daftar">
             </div>
             <div id="kotakMasuk">
                 <div class="judulMasuk">Masuk</div>

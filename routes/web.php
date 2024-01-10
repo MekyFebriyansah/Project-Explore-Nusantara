@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\daftarController;
 use App\Http\Controllers\masukController;
+use App\Http\Controllers\tambahBlogController;
+use App\Http\Controllers\detailBlogController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,3 +24,7 @@ Route::get('/', function () {
 Route::get('/daftar', [daftarController::class, 'pindah_daftar']);
 
 Route::get('/masuk', [masukController::class, 'pindah_masuk'] );
+
+Route::get('/tambahBlog', [tambahBlogController::class,'pindah_tambahBlog']);
+
+Route::get('/detailBlog', [detailBlogController::class,'pindah_detailBlog']);

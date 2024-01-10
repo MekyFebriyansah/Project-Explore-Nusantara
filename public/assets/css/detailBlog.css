@@ -1,0 +1,88 @@
+#detailblog {
+    background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
+    width: 120rem;
+    height: 120%;
+    margin: auto;
+}
+#header {
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+#judulheader {
+    color: #181e4b;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2.19rem;
+    margin-left: 5rem;
+    align-items: center;
+}
+#navigasiBlog {
+    display: flex;
+    margin-right: 5.01rem;
+    margin-left: auto;
+    margin-top: 2.19rem;
+    gap: 3.5rem;
+}
+.keluarBlog a {
+    text-decoration: none;
+}
+.keluarBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.profilBlog a {
+    text-decoration: none;
+}
+.profilBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.wisataBlog a {
+    text-decoration: none;
+}
+.wisataBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.blogBlog a {
+    text-decoration: none;
+}
+.blogBlog {
+    color: #c76904;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.berandaBlog a {
+    text-decoration: none;
+}
+.berandaBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}

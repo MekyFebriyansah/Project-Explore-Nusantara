@@ -25,6 +25,11 @@
             Masuk 
           </div>
         </a>
+        <a href="{{ url('/tambahBlog') }}" style="text-decoration: none">
+          <div class="daftar">
+            Tambah Blog
+          </div>
+        </a>
         </div>
       </div>
       <div id="gambarPageAtas">
