@@ -167,12 +167,88 @@
     margin-top: 1.88rem;
 }
 
-.gambardetailBlog img {
+.gambardetailBlog {
     width: 107.1875rem;
     height: 46.6875rem;
     border-radius: 6.25rem;
-    background: url("/assets/img/detailBlog.png"),
-        rgb(178, 178, 178) 50% / #d9d9d9;
     margin-top: 17.47rem;
     margin-left: 6.69rem;
+    margin-right: auto;
+    margin-bottom: 5.56rem;
+}
+
+.gambardetailBlog img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6.25rem;
+}
+
+#footer {
+    width: 120rem;
+    height: 26.875rem;
+    background: url("/assets/img/footer.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 9.44rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.75rem;
+}
+
+.judulFooter {
+    color: #fff;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.90625rem */
+    margin-top: 5rem;
+}
+
+#kredit {
+    display: flex;
+    flex-direction: column;
+}
+
+.judulKredit {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.125rem */
+}
+
+.deskripsiKredit {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    margin-top: 1.12rem;
+}
+
+.logoKredit {
+    display: flex;
+    width: 14.0625rem;
+    align-items: center;
+    gap: 3.375rem;
+    margin-top: 1.94rem;
+}
+
+#copyright {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 8.63rem;
 }

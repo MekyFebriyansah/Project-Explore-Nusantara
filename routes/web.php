@@ -4,6 +4,7 @@ use App\Http\Controllers\daftarController;
 use App\Http\Controllers\masukController;
 use App\Http\Controllers\tambahBlogController;
 use App\Http\Controllers\detailBlogController;
+use App\Http\Controllers\blogAndaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,3 +29,5 @@ Route::get('/masuk', [masukController::class, 'pindah_masuk'] );
 Route::get('/tambahBlog', [tambahBlogController::class,'pindah_tambahBlog']);
 
 Route::get('/detailBlog', [detailBlogController::class,'pindah_detailBlog']);
+
+Route::get('/blogAnda', [blogAndaController::class,'pindah_blogAnda']);

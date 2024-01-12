@@ -1,0 +1,401 @@
+#BlogAnda {
+    width: 120rem;
+    height: 120%;
+    background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
+    margin: auto;
+}
+#header {
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+#judulheader {
+    color: #181e4b;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2.19rem;
+    margin-left: 5rem;
+    align-items: center;
+}
+#navigasiBlog {
+    display: flex;
+    margin-right: 5.01rem;
+    margin-left: auto;
+    margin-top: 2.19rem;
+    gap: 3.5rem;
+}
+.keluarBlog a {
+    text-decoration: none;
+}
+.keluarBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.profilBlog a {
+    text-decoration: none;
+}
+.profilBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.wisataBlog a {
+    text-decoration: none;
+}
+.wisataBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.blogBlog a {
+    text-decoration: none;
+}
+.blogBlog {
+    color: #c76904;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.berandaBlog a {
+    text-decoration: none;
+}
+.berandaBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+
+.tulisanBlogAnda {
+    color: #181e4b;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5.06rem;
+    margin-top: 34.94rem;
+}
+
+.gambarBlogAnda {
+    width: 44.875rem;
+    height: 31.25rem;
+    border-radius: 0rem 8.125rem 0rem 0rem;
+    margin-left: 5rem;
+    margin-top: 4.19rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.nomorBlogAnda {
+    width: 7.0625rem;
+    height: 10.125rem;
+    position: absolute;
+    left: 25rem;
+    justify-content: center;
+    color: #c76904;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 5.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 8.4375rem */
+    letter-spacing: 0.05625rem;
+    margin-bottom: -9rem;
+    z-index: 1;
+}
+
+.gambardetailBlog img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0rem 8.125rem 0rem 0rem;
+    z-index: 2;
+}
+
+.teksBlogAnda {
+    display: flex;
+    width: 62.8125rem;
+    height: 29.9375rem;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.5rem;
+    flex-shrink: 0;
+    margin-right: 3.4rem;
+    margin-left: auto;
+}
+
+.sedangproses {
+    display: flex;
+    width: 8rem;
+    height: 1.8125rem;
+    flex-direction: row;
+    justify-content: center;
+    color: #3d6299;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+    position: absolute;
+    margin-left: 4.13rem;
+}
+
+.isiteksBlogAnda {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.90625rem */
+    letter-spacing: 0.0625rem;
+    margin-top: 3.44rem;
+    display: flex;
+    margin-left: 4.13rem;
+    position: absolute;
+}
+
+.isiteksBlogAnda1 {
+    width: 59.625rem;
+    color: #4d5053;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    display: flex;
+    margin-top: 13rem;
+    margin-left: 3.44rem;
+}
+
+.tombolSelengkapnya {
+    display: flex;
+    padding: 1.625rem 2.5rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.125rem;
+    background: #3d6299;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    margin-top: 23rem;
+    margin-left: 3.44rem;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.40625rem */
+    letter-spacing: 0.0225rem;
+}
+
+.teksBlogAnda2 {
+    display: flex;
+    width: 62.8125rem;
+    height: 29.9375rem;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.5rem;
+    flex-shrink: 0;
+    margin-left: 25.13rem;
+}
+
+.sedangproses2 {
+    display: flex;
+    width: 8rem;
+    height: 1.8125rem;
+    flex-direction: row;
+    justify-content: center;
+    color: #3d6299;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+    position: absolute;
+    margin-left: 4.13rem;
+}
+
+.isiteksBlogAnda2 {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.90625rem */
+    letter-spacing: 0.0625rem;
+    margin-top: 3.44rem;
+    display: flex;
+    margin-left: 4.13rem;
+    margin-right: auto;
+    position: absolute;
+}
+
+.isiteksBlogAnda3 {
+    width: 59.625rem;
+    color: #4d5053;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    display: flex;
+    margin-top: 17rem;
+    margin-left: 3.44rem;
+}
+
+.tombolSelengkapnya2 {
+    display: flex;
+    padding: 1.625rem 2.5rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.125rem;
+    background: #3d6299;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    margin-top: 27rem;
+    margin-left: 3.44rem;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.40625rem */
+    letter-spacing: 0.0225rem;
+}
+
+.tambahBlogAnda {
+    display: inline-flex;
+    padding: 1.625rem 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.125rem;
+    background: #3d6299;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    margin-right: auto;
+    margin-left: 103.94rem;
+    margin-top: 13.81rem;
+    flex-direction: row;
+    color: #fff;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.40625rem */
+    letter-spacing: 0.0225rem;
+}
+
+.tambahBlogAnda a {
+    text-decoration: none;
+}
+
+#footer {
+    width: 120rem;
+    height: 26.875rem;
+    background: url("/assets/img/footer.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 9.44rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.judulFooter {
+    color: #fff;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.90625rem */
+    margin-top: 5rem;
+}
+
+#kredit {
+    display: flex;
+    flex-direction: column;
+}
+
+.judulKredit {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.125rem */
+}
+
+.deskripsiKredit {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    margin-top: 1.12rem;
+}
+
+.logoKredit {
+    display: flex;
+    width: 14.0625rem;
+    align-items: center;
+    gap: 3.375rem;
+    margin-top: 1.94rem;
+}
+
+#copyright {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 8.63rem;
+}
+
+.fotoBlog {
+    width: 44.875rem;
+    height: 31.25rem;
+    border-radius: 0rem 8.125rem 0rem 0rem;
+}
