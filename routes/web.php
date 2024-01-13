@@ -5,6 +5,8 @@ use App\Http\Controllers\masukController;
 use App\Http\Controllers\tambahBlogController;
 use App\Http\Controllers\detailBlogController;
 use App\Http\Controllers\blogAndaController;
+use App\Http\Controllers\semuaBlogController;
+use App\Http\Controllers\homePageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,3 +33,7 @@ Route::get('/tambahBlog', [tambahBlogController::class,'pindah_tambahBlog']);
 Route::get('/detailBlog', [detailBlogController::class,'pindah_detailBlog']);
 
 Route::get('/blogAnda', [blogAndaController::class,'pindah_blogAnda']);
+
+Route::get('semuaBlog', [semuaBlogController::class, 'pindah_semuaBlog']);
+
+Route::get('homepage', [homePageController::class,'pindah_homepage']);

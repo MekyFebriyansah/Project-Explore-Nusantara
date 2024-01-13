@@ -30,6 +30,11 @@
             Tambah Blog
           </div>
         </a>
+        <a href="{{ url('/homepage') }}" style="text-decoration: none">
+          <div class="daftar">
+            Home Page
+          </div>
+        </a>
         </div>
       </div>
       <div id="gambarPageAtas">

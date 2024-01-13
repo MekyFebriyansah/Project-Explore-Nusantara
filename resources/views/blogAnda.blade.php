@@ -43,6 +43,11 @@
                     Keluar
                 </a>
             </div>
+            <div class="semuaBlog">
+                <a href="{{ url('/semuaBlog') }}">
+                    Semua Blog
+                </a>
+            </div>
             </div>
         </div>
         <div class="tulisanBlogAnda">

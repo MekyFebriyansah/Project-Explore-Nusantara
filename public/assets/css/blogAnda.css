@@ -87,6 +87,20 @@
     line-height: 125%; /* 1.5625rem */
 }
 
+.semuaBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+
+.semuaBlog {
+    text-decoration: none;
+}
+
 .tulisanBlogAnda {
     color: #181e4b;
     font-family: DM Serif Display;
