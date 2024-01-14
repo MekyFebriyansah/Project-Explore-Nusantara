@@ -6,8 +6,8 @@ body {
     width: 120rem;
     height: 352.8125rem;
     font-family: sans-serif;
-    background: linear-gradient(180deg, #FDFAE3 0%, #FFF 52.5%);
-
+    background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
+    align-items: center;
 }
 .wrapper .slides .lombok {
     color: #ffffff;
@@ -45,23 +45,23 @@ nav ul li a {
     text-decoration: none;
     color: #000;
     text-align: center;
-    font-family: 'Jost';
+    font-family: "Jost";
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 125%; 
+    line-height: 125%;
     transition: 0.4s;
 }
 nav .judul {
-    font-family: 'DM Serif Display', serif;
-    color: #181E4B;
+    font-family: "DM Serif Display", serif;
+    color: #181e4b;
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    }
+}
 nav ul li a:hover {
-    color: #C76904;
+    color: #c76904;
 }
 /* Responsive windows */
 @media screen and (max-width: 1080px) {
@@ -81,7 +81,7 @@ nav ul li a:hover {
 @media screen and (max-width: 576px) {
     nav ul {
         width: 60%;
-        font-size: 0.8em ;
+        font-size: 0.8em;
     }
     nav .judul {
         font-size: 1.2em;
@@ -100,11 +100,11 @@ nav ul li a:hover {
     margin: auto;
     overflow: hidden;
 }
-.wrapper .text p{
+.wrapper .text p {
     position: absolute;
     bottom: 230px;
     left: 550px;
-    color: #FFFBE4;
+    color: #fffbe4;
     text-align: center;
     font-family: DM Serif Display;
     font-size: 6rem;
@@ -149,7 +149,7 @@ nav ul li a:hover {
 .navigasi {
     position: absolute;
     margin-left: auto;
-    margin-right: auto ;
+    margin-right: auto;
     left: 0;
     right: 0;
     text-align: center;
@@ -166,17 +166,17 @@ nav ul li a:hover {
     background: var(--White, #ffffff);
     box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
 }
-.search .content .location .tempat{
+.search .content .location .tempat {
     margin-top: -1.5rem;
 }
-.search .content .location img{
+.search .content .location img {
     display: flex;
     width: 1.375rem;
     height: 1.375rem;
     justify-content: center;
     align-items: center;
 }
-.search .content .location .tempat p{
+.search .content .location .tempat p {
     display: flex;
     margin-left: 30px;
     color: var(--Grey-1, #808080);
@@ -186,15 +186,15 @@ nav ul li a:hover {
     font-weight: 600;
     line-height: normal;
 }
-.search .content .location .tempat .papua p{
-    color: var(--Black, #112B3C);
+.search .content .location .tempat .papua p {
+    color: var(--Black, #112b3c);
     font-family: Barlow;
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.search .content input{
+.search .content input {
     border: none;
     display: flex;
     width: 63.71rem;
@@ -206,7 +206,7 @@ nav ul li a:hover {
     margin-top: -0.8rem;
 }
 
-.content{
+.content {
     display: flex;
     width: 63.71rem;
     justify-content: space-between;
@@ -214,8 +214,8 @@ nav ul li a:hover {
     margin: auto;
     padding: 30px;
 }
-.nusantaraindonesia p{
-    color: #292F36;
+.nusantaraindonesia p {
+    color: #292f36;
     text-align: center;
     font-family: DM Serif Display;
     font-size: 4.125rem;
@@ -227,8 +227,8 @@ nav ul li a:hover {
     width: 27.4375rem;
     height: 2.375rem;
     flex-shrink: 0;
-    color: #CDA274;
-    font-family: 'Jost',sans-serif;
+    color: #cda274;
+    font-family: "Jost", sans-serif;
     font-size: 1.5625rem;
     font-style: normal;
     font-weight: 400;
@@ -239,7 +239,7 @@ nav ul li a:hover {
 .text {
     margin: auto;
     width: 110.1875rem;
-    color: #4D5053;
+    color: #4d5053;
     text-align: justify;
     font-family: Jost;
     font-size: 1.5625rem;
@@ -249,7 +249,7 @@ nav ul li a:hover {
     letter-spacing: 0.01563rem;
 }
 .wisatanusantara {
-    color: #292F36;
+    color: #292f36;
     text-align: center;
     font-family: DM Serif Display;
     font-size: 4.75rem;
@@ -265,9 +265,9 @@ nav ul li a:hover {
     height: 15.75rem;
     flex-direction: column;
     justify-content: center;
-    color: #4D5053;
+    color: #4d5053;
     text-align: center;
-    font-family: 'Jost';
+    font-family: "Jost";
     font-size: 1.75rem;
     font-style: normal;
     font-weight: 400;
@@ -279,13 +279,13 @@ nav ul li a:hover {
     width: 120rem;
     margin: auto;
 }
-.img1 img{
+.img1 img {
     width: 34.1875rem;
     margin-left: 7.56rem;
     height: 34.25rem;
     flex-shrink: 0;
     border-radius: 0rem 16.875rem 0rem 0rem;
-    background: cover no-repeat, #D9D9D9;
+    background: cover no-repeat, #d9d9d9;
 }
 .img2 img {
     width: 34.1875rem;
@@ -293,7 +293,7 @@ nav ul li a:hover {
     height: 34.25rem;
     flex-shrink: 0;
     border-radius: 0rem 16.875rem 0rem 0rem;
-    background: cover no-repeat, #D9D9D9;
+    background: cover no-repeat, #d9d9d9;
 }
 .img3 img {
     width: 34.1875rem;
@@ -301,7 +301,7 @@ nav ul li a:hover {
     height: 34.25rem;
     flex-shrink: 0;
     border-radius: 0rem 16.875rem 0rem 0rem;
-    background: cover no-repeat, #D9D9D9;
+    background: cover no-repeat, #d9d9d9;
 }
 .subcontent1 {
     display: flex;
@@ -312,9 +312,9 @@ nav ul li a:hover {
     align-items: center;
     gap: 16.25rem;
 }
-.subcontent1 p{
-    color: #292F36;
-    font-family: 'DM Serif Display', serif;
+.subcontent1 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
     font-size: 1.5625rem;
     font-style: normal;
     font-weight: 400;
@@ -333,9 +333,9 @@ nav ul li a:hover {
     align-items: center;
     gap: 16.25rem;
 }
-.subcontent2 p{
-    color: #292F36;
-    font-family: 'DM Serif Display', serif;
+.subcontent2 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
     font-size: 1.5625rem;
     font-style: normal;
     font-weight: 400;
@@ -354,9 +354,9 @@ nav ul li a:hover {
     align-items: center;
     gap: 16.25rem;
 }
-.subcontent3 p{
-    color: #292F36;
-    font-family: 'DM Serif Display', serif;
+.subcontent3 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
     font-size: 1.5625rem;
     font-style: normal;
     font-weight: 400;
@@ -372,13 +372,13 @@ nav ul li a:hover {
     width: 120rem;
     margin: auto;
 }
-.img4 img{
+.img4 img {
     width: 34.1875rem;
     margin-left: 7.56rem;
     height: 34.25rem;
     flex-shrink: 0;
     border-radius: 0rem 16.875rem 0rem 0rem;
-    background: cover no-repeat, #D9D9D9;
+    background: cover no-repeat, #d9d9d9;
 }
 .img5 img {
     width: 34.1875rem;
@@ -386,7 +386,7 @@ nav ul li a:hover {
     height: 34.25rem;
     flex-shrink: 0;
     border-radius: 0rem 16.875rem 0rem 0rem;
-    background: cover no-repeat, #D9D9D9;
+    background: cover no-repeat, #d9d9d9;
 }
 .img6 img {
     width: 34.1875rem;
@@ -394,7 +394,7 @@ nav ul li a:hover {
     height: 34.25rem;
     flex-shrink: 0;
     border-radius: 0rem 16.875rem 0rem 0rem;
-    background: cover no-repeat, #D9D9D9;
+    background: cover no-repeat, #d9d9d9;
 }
 /* subconten1 */
 .subcontent4 {
@@ -406,9 +406,9 @@ nav ul li a:hover {
     align-items: center;
     gap: 16.25rem;
 }
-.subcontent4 p{
-    color: #292F36;
-    font-family: 'DM Serif Display', serif;
+.subcontent4 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
     font-size: 1.5625rem;
     font-style: normal;
     font-weight: 400;
@@ -427,9 +427,9 @@ nav ul li a:hover {
     align-items: center;
     gap: 16.25rem;
 }
-.subcontent5 p{
-    color: #292F36;
-    font-family: 'DM Serif Display', serif;
+.subcontent5 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
     font-size: 1.5625rem;
     font-style: normal;
     font-weight: 400;
@@ -448,9 +448,9 @@ nav ul li a:hover {
     align-items: center;
     gap: 16.25rem;
 }
-.subcontent6 p{
-    color: #292F36;
-    font-family: 'DM Serif Display', serif;
+.subcontent6 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
     font-size: 1.5625rem;
     font-style: normal;
     font-weight: 400;
@@ -461,16 +461,16 @@ nav ul li a:hover {
     margin-left: -35px;
 }
 /* Blog */
-.blog{
+.blog {
     display: flex;
     width: 76.6875rem;
     flex-direction: column;
     gap: 0.75rem;
     margin: auto;
-    margin-top: -100px
+    margin-top: -100px;
 }
-.blog .blog1 p{
-    color: #292F36;
+.blog .blog1 p {
+    color: #292f36;
     text-align: center;
     font-family: DM Serif Display;
     font-size: 3.75rem;
@@ -479,14 +479,14 @@ nav ul li a:hover {
     line-height: 125%; /* 4.6875rem */
     letter-spacing: 0.075rem;
 }
-.blog .text p{
+.blog .text p {
     display: flex;
     margin-top: -90px;
     width: 76.5625rem;
     height: 24.25rem;
     flex-direction: column;
     justify-content: center;
-    color: #4D5053;
+    color: #4d5053;
 
     text-align: center;
     font-family: Jost;
@@ -518,7 +518,7 @@ nav ul li a:hover {
     align-items: flex-start;
     gap: 0.625rem;
     border-radius: 3.875rem;
-    border: 1px solid #E7E7E7;
+    border: 1px solid #e7e7e7;
     box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
 }
 .blogg .frame1 .subcontent .content {
@@ -529,21 +529,21 @@ nav ul li a:hover {
     align-items: center;
     gap: 1.3125rem;
 }
-.blogg .frame1 .subcontent .content .bg{
+.blogg .frame1 .subcontent .content .bg {
     width: 21.25rem;
     height: 18.07919rem;
     flex-shrink: 0;
     border-radius: 2.8125rem 2.8125rem 0rem 0rem;
-    background: #EAEAEA;
+    background: #eaeaea;
 }
 .blogg .frame1 .subcontent .content .bg img {
     width: 24.1875rem;
     height: 18rem;
-    flex-shrink: 0; 
+    flex-shrink: 0;
     margin-left: -20px;
 }
-.blogg .frame1 .text p{
-    position: relative  ;
+.blogg .frame1 .text p {
+    position: relative;
     top: -200px;
     left: 30px;
 }
@@ -555,7 +555,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #4D5053;
+    color: #4d5053;
     font-family: Jost;
     font-size: 1rem;
     font-style: normal;
@@ -572,12 +572,12 @@ nav ul li a:hover {
     height: 3.25rem;
     z-index: 1;
 }
-.blogg .frame1 .tag p{
+.blogg .frame1 .tag p {
     position: absolute;
     top: 280px;
     left: 50px;
     border-radius: 0.5rem 0.5rem 0.5rem 0rem;
-    background: rgba(0, 0, 0, 0.50);
+    background: rgba(0, 0, 0, 0.5);
     width: 7.75rem;
     height: 2.5625rem;
     flex-shrink: 0;
@@ -616,7 +616,7 @@ nav ul li a:hover {
     align-items: flex-start;
     gap: 0.625rem;
     border-radius: 3.875rem;
-    border: 1px solid #E7E7E7;
+    border: 1px solid #e7e7e7;
     box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
 }
 .blogg1 .frame1 .subcontent .content {
@@ -627,21 +627,21 @@ nav ul li a:hover {
     align-items: center;
     gap: 1.3125rem;
 }
-.blogg1 .frame1 .subcontent .content .bg{
+.blogg1 .frame1 .subcontent .content .bg {
     width: 21.25rem;
     height: 18.07919rem;
     flex-shrink: 0;
     border-radius: 2.8125rem 2.8125rem 0rem 0rem;
-    background: #EAEAEA;
+    background: #eaeaea;
 }
 .blogg1 .frame1 .subcontent .content .bg img {
     width: 24.1875rem;
     height: 18rem;
-    flex-shrink: 0; 
+    flex-shrink: 0;
     margin-left: -20px;
 }
-.blogg1 .frame1 .text p{
-    position: relative  ;
+.blogg1 .frame1 .text p {
+    position: relative;
     top: -200px;
     left: 30px;
 }
@@ -653,7 +653,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #4D5053;
+    color: #4d5053;
     font-family: Jost;
     font-size: 1rem;
     font-style: normal;
@@ -670,12 +670,12 @@ nav ul li a:hover {
     height: 3.25rem;
     z-index: 1;
 }
-.blogg1 .frame1 .tag p{
+.blogg1 .frame1 .tag p {
     position: absolute;
     top: 280px;
     left: 50px;
     border-radius: 0.5rem 0.5rem 0.5rem 0rem;
-    background: rgba(0, 0, 0, 0.50);
+    background: rgba(0, 0, 0, 0.5);
     width: 7.75rem;
     height: 2.5625rem;
     flex-shrink: 0;
@@ -714,7 +714,7 @@ nav ul li a:hover {
     align-items: flex-start;
     gap: 0.625rem;
     border-radius: 3.875rem;
-    border: 1px solid #E7E7E7;
+    border: 1px solid #e7e7e7;
     box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
 }
 .blogg2 .frame1 .subcontent .content {
@@ -725,21 +725,21 @@ nav ul li a:hover {
     align-items: center;
     gap: 1.3125rem;
 }
-.blogg2 .frame1 .subcontent .content .bg{
+.blogg2 .frame1 .subcontent .content .bg {
     width: 21.25rem;
     height: 18.07919rem;
     flex-shrink: 0;
     border-radius: 2.8125rem 2.8125rem 0rem 0rem;
-    background: #EAEAEA;
+    background: #eaeaea;
 }
 .blogg2 .frame1 .subcontent .content .bg img {
     width: 24.1875rem;
     height: 18rem;
-    flex-shrink: 0; 
+    flex-shrink: 0;
     margin-left: -20px;
 }
-.blogg2 .frame1 .text p{
-    position: relative  ;
+.blogg2 .frame1 .text p {
+    position: relative;
     top: -200px;
     left: 30px;
 }
@@ -751,7 +751,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #4D5053;
+    color: #4d5053;
     font-family: Jost;
     font-size: 1rem;
     font-style: normal;
@@ -768,12 +768,12 @@ nav ul li a:hover {
     height: 3.25rem;
     z-index: 1;
 }
-.blogg2 .frame1 .tag p{
+.blogg2 .frame1 .tag p {
     position: absolute;
     top: 280px;
     left: 50px;
     border-radius: 0.5rem 0.5rem 0.5rem 0rem;
-    background: rgba(0, 0, 0, 0.50);
+    background: rgba(0, 0, 0, 0.5);
     width: 7.75rem;
     height: 2.5625rem;
     flex-shrink: 0;

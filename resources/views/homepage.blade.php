@@ -24,7 +24,7 @@
             <li><a href="">Blog</a></li>
             <li><a href="">Wisata</a></li>
             <li><a href="">Profil</a></li>
-            <li><a href="">Keluar</a></li>
+            <li><a href="/">Keluar</a></li>
         </ul>
     </nav>
     <div class="wrapper">
