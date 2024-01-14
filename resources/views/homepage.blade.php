@@ -14,8 +14,8 @@
     <title>Home Page</title>
 </head>
 <body>
+<div class="homepage">
     <nav>
-
         <div class="judul">
             <h3>Explore Nusantara</h3>
         </div>
@@ -37,13 +37,13 @@
             <span id="slide-6"></span>
             <span id="slide-7"></span>
             <div class="gambar">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
             </div>
             <div class="lombok">Lombok, Indonesia</div>
         </div>
@@ -88,20 +88,20 @@
         <div class="p1"><p>Dari tradisi adat yang kuno hingga kehidupan modern yang berirama, dari keunikan kuliner hingga keanekaragaman tarian dan musik, Nusantara adalah laboratorium budaya yang mengagumkan.</p></div>
     <div class="rectangle">
         <div class="img1">
-            <img src="assets/rectangle-4-bg.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 4.png') }}" alt="">
         </div>
         <div class="img2">
-            <img src="assets/rectangle-5-bg.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 5.png') }}" alt="">
         </div>
         <div class="img3">
-            <img src="assets/rectangle-7-bg.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 7.png') }}" alt="">
         </div>
     </div>
     <div class="subcontent1">
         <p>Morotai, Maluku Utara</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
@@ -109,7 +109,7 @@
         <p>Raja Ampat, Papua barat</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
@@ -117,20 +117,20 @@
         <p>Kawah Putih, Jawa Barat</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
     {{-- Rectangle1 --}}
     <div class="rectangle1">
         <div class="img4">
-            <img src="assets/rectangle-19-bg-YB6.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 19.png') }}" alt="">
         </div>
         <div class="img5">
-            <img src="assets/rectangle-20-bg-Qda.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 20.png') }}" alt="">
         </div>
         <div class="img6">
-            <img src="assets/rectangle-21-bg.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 21.png') }}" alt="">
         </div>
     </div>
     {{-- subconten --}}
@@ -138,7 +138,7 @@
         <p>Savana Bromo, Jawa Timur</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
@@ -146,7 +146,7 @@
         <p>Candi Borobudur, Jawa Tengah</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
@@ -154,7 +154,7 @@
         <p>Semeru, Jawa Timur</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
@@ -168,7 +168,7 @@
             <div class="tag"><p>Papua</p></div>
             <div class="subcontent">
                 <div class="content">
-                    <div class="bg"><img src="assets/image-4J8.png" alt=""></div>                  
+                    <div class="bg"><img src="{{ asset('assets/img/Photo.png') }}" alt=""></div>                  
                 </div>
             </div>
             <div class="text">
@@ -176,7 +176,7 @@
                 <div class="date"><p>26 December,2022</p></div>
                 <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
                     <button type="button" onclick="handleButtonClick()" style="border: none;">
-                        <img src="assets/_.png" alt="Button">
+                        <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
                     </button>
                 </a>
             </div>
@@ -188,7 +188,7 @@
             <div class="tag"><p>bali</p></div>
             <div class="subcontent">
                 <div class="content">
-                    <div class="bg"><img src="assets/image.png" alt=""></div>                  
+                    <div class="bg"><img src="{{ asset('assets/img/Photo (1).png') }}" alt=""></div>                  
                 </div>
             </div>
             <div class="text">
@@ -196,7 +196,7 @@
                 <div class="date"><p>22 November,2023</p></div>
                 <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
                     <button type="button" onclick="handleButtonClick()" style="border: none;">
-                        <img src="assets/_.png" alt="Button">
+                        <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
                     </button>
                 </a>
             </div>
@@ -208,7 +208,7 @@
             <div class="tag"><p>Medan</p></div>
             <div class="subcontent">
                 <div class="content">
-                    <div class="bg"><img src="assets/image-6LL.png" alt=""></div>                  
+                    <div class="bg"><img src="{{ asset('assets/img/Photo (2).png') }}" alt=""></div>                  
                 </div>
             </div>
             <div class="text">
@@ -216,7 +216,7 @@
                 <div class="date"><p>4 December,2023</p></div>
                 <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
                     <button type="button" onclick="handleButtonClick()" style="border: none;">
-                        <img src="assets/_.png" alt="Button">
+                        <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
                     </button>
                 </a>
             </div>
@@ -245,6 +245,7 @@
       </div>
     {{-- footer --}}
     <div id="footer">
+        <div class="judulFooter">Bumi Indonesia</div>
         <a href="" style="text-decoration: none"><div class="tombolPageAtas">Hubungi Kami <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
           <path d="M1 8.43536L14.7232 8.29851M9.61818 1.91132L16.1412 8.4343L9.48677 15.0887" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
         </svg></div></a>
@@ -272,5 +273,6 @@
         </div>
       </div>
       <div id="copyright">Copyright © EkaMelisa </div>
+    </div>
 </body>
 </html>
