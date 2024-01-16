@@ -7,6 +7,11 @@ use App\Http\Controllers\detailBlogController;
 use App\Http\Controllers\blogAndaController;
 use App\Http\Controllers\semuaBlogController;
 use App\Http\Controllers\homePageController;
+use App\Http\Controllers\semuawisataController;
+use App\Http\Controllers\wisataandaController;
+use App\Http\Controllers\tambahwisataController;
+use App\Http\Controllers\detailwisataController;
+use App\Http\Controllers\profilController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,3 +42,13 @@ Route::get('/blogAnda', [blogAndaController::class,'pindah_blogAnda']);
 Route::get('semuaBlog', [semuaBlogController::class, 'pindah_semuaBlog']);
 
 Route::get('homepage', [homePageController::class,'pindah_homepage']);
+
+Route::get('semuawisata', [semuawisataController::class,'pindah_semuawisata']);
+
+Route::get('wisataanda', [wisataandaController::class,'pindah_wisataanda']);
+
+Route::get('tambahwisata', [tambahwisataController::class,'pindah_tambahwisata']);
+
+Route::get('detailwisata', [detailwisataController::class,'pindah_detailwisata']);
+
+Route::get('profil', [profilController::class,'pindah_profil']);

@@ -2,6 +2,7 @@
     width: 120rem;
     height: 352.8125rem;
     background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
+    margin: auto;
 }
 .wrapper .slides .lombok {
     color: #ffffff;
