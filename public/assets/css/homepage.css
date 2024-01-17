@@ -137,6 +137,9 @@ nav ul li a:hover {
     border-radius: 50%;
     margin: 3px;
     transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50rem;
 }
 .navigasi a:hover {
     background-color: #666;
@@ -597,10 +600,11 @@ nav ul li a:hover {
     align-items: flex-start;
     gap: 1.6875rem;
     margin-top: 55.5rem;
+    left: 100rem;
 }
 .blogg1 .frame1 {
     position: relative;
-    left: -500px;
+    left: 500rem;
     width: 23.875rem;
     height: 32.5625rem;
     flex-shrink: 0;
@@ -614,6 +618,7 @@ nav ul li a:hover {
     border-radius: 3.875rem;
     border: 1px solid #e7e7e7;
     box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
+    margin-left: 20rem;
 }
 .blogg1 .frame1 .subcontent .content {
     display: flex;
@@ -622,6 +627,7 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     gap: 1.3125rem;
+    margin-left: 20rem;
 }
 .blogg1 .frame1 .subcontent .content .bg {
     width: 21.25rem;
@@ -629,12 +635,13 @@ nav ul li a:hover {
     flex-shrink: 0;
     border-radius: 2.8125rem 2.8125rem 0rem 0rem;
     background: #eaeaea;
+    margin-left: 100rem;
 }
 .blogg1 .frame1 .subcontent .content .bg img {
     width: 24.1875rem;
     height: 18rem;
     flex-shrink: 0;
-    margin-left: -20px;
+    margin-left: 100rem;
 }
 .blogg1 .frame1 .text p {
     position: relative;
