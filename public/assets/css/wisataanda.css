@@ -100,7 +100,6 @@
 .nomorBlogAnda {
     width: 7.0625rem;
     height: 10.125rem;
-    position: absolute;
     left: 25rem;
     justify-content: center;
     color: #c76904;
@@ -171,6 +170,7 @@
     margin-top: 3.44rem;
     display: flex;
     margin-left: 4.13rem;
+    width: 59.625rem;
     position: absolute;
 }
 
@@ -192,7 +192,6 @@
 
 .tombolSelengkapnya {
     display: flex;
-    padding: 1.625rem 2.5rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -200,10 +199,8 @@
     border-radius: 1.125rem;
     background: #3d6299;
     box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
-    margin-top: 23rem;
-    margin-left: 3.44rem;
-    top: 50rem;
-    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1.44rem;
     color: #fff;
     text-align: center;
     font-family: Jost;

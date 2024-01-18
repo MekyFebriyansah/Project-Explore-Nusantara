@@ -12,8 +12,7 @@
     <title>Profil</title>
 </head>
 <body>
-    <div id="Profil">
-        <div id="detailBlog">
+    <div id="detailBlog">
             <div id="header">
                 <div id="judulheader">
                     ExploreNusantara
@@ -46,84 +45,23 @@
                 </div>
                 </div>
             </div>
-        </div>
         <div class="Profil">
             Profil
         </div>
-        <div class="gambarprofil">
-            <img src="{{ asset('assets/img/Rectangle 40.png') }}" alt="">
-            <div class="isiprofil">
-                <div class="formprofil">
-                    <div class="kontennama">
-                        <div class="nama">
-                            Nama
-                            <hr>
-                            <input type="text">
-                        </div>
-                    </div>
-                </div>
+        <div id="kontenProfil">
+            <div class="gambarProfil"><img src="{{ asset ('assets/img/fotoProfil.png') }}" alt=""></div>
+            <div class="formProfil">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Name">
+                    <input type="text" name="" id="" placeholder="Alamat">
+                    <input type="text" name="" id="" placeholder="Tempat Lahir">
+                    <input type="text" name="" id="" placeholder="Tanggal Lahir">
+                    <input type="text" name="" id="" placeholder="Email">
+                    <input type="text" name="" id="" placeholder="Nomor Handphone">
+                    <br>
+                    <button type="submit">Simpan</button>
+                </form>
             </div>
-            <div class="isiprofil">
-                <div class="formprofil">
-                    <div class="kontennama">
-                        <div class="nama">
-                            Alamat
-                            <hr>
-                            <input type="text">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="isiprofil">
-                <div class="formprofil">
-                    <div class="kontennama">
-                        <div class="nama">
-                            Tempat Lahir
-                            <hr>
-                            <input type="text">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="isiprofil">
-                <div class="formprofil">
-                    <div class="kontennama">
-                        <div class="nama">
-                            Tanggal Lahir
-                            <hr>
-                            <input type="text">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="isiprofil">
-                <div class="formprofil">
-                    <div class="kontennama">
-                        <div class="nama">
-                            Email
-                            <hr>
-                            <input type="text">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="isiprofil">
-                <div class="formprofil">
-                    <div class="kontennama">
-                        <div class="nama">
-                            No Telepon
-                            <hr>
-                            <input type="text">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="simpanprofil">
-            Simpan
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
-  <path d="M1 8.43517L14.7232 8.29832M9.61818 1.91113L16.1412 8.43412L9.48677 15.0885" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
-</svg>
         </div>
         <div id="footer">
             <div class="judulFooter">Bumi Indonesia</div>

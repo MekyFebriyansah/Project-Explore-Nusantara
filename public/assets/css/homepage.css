@@ -1,20 +1,21 @@
 .homepage {
     width: 120rem;
     height: 352.8125rem;
-    background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
+    background: linear-gradient(180deg, #e3fdecc8 0%, #fff 52.5%);
     margin: auto;
 }
-.wrapper .slides .lombok {
+.lombok {
     color: #ffffff;
     position: absolute;
-    top: 35rem;
-    left: 35rem;
     text-align: center;
     font-family: DM Serif Display;
     font-size: 6rem;
     font-style: normal;
     font-weight: 400;
+    display: flex;
     line-height: 125%;
+    margin-top: -30rem;
+    margin-left: 30rem;
 }
 nav {
     width: 120rem;
@@ -59,29 +60,7 @@ nav ul li a:hover {
     color: #c76904;
 }
 /* Responsive windows */
-@media screen and (max-width: 1080px) {
-    nav ul {
-        width: 40%;
-        font-size: 1.7;
-    }
-}
-/* Responsive ukuran tablet */
-@media screen and (max-width: 768px) {
-    nav ul {
-        width: 50%;
-        font-size: 1.4;
-    }
-}
-/* Responsive ukuran Mobile */
-@media screen and (max-width: 576px) {
-    nav ul {
-        width: 60%;
-        font-size: 0.8em;
-    }
-    nav .judul {
-        font-size: 1.2em;
-    }
-}
+
 .gambar {
     display: flex;
     width: 100%;
@@ -107,6 +86,7 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: 125%; /* 7.5rem */
 }
+
 #slide-1:target ~ .gambar {
     margin-left: 0px;
 }
@@ -132,22 +112,19 @@ nav ul li a:hover {
     display: inline-flex;
     height: 10px;
     width: 10px;
-    background-color: rgb(230, 221, 182);
+    background-color: rgb(241, 226, 212);
     font-size: 0;
     border-radius: 50%;
     margin: 3px;
     transition: 0.5s;
     align-items: center;
-    justify-content: center;
-    margin-left: 50rem;
 }
 .navigasi a:hover {
     background-color: #666;
 }
 .navigasi {
-    position: absolute;
-    margin-left: -40rem;
-    margin-right: auto;
+    width: 40rem;
+    margin-left: 40rem;
     left: 0;
     right: 0;
     text-align: center;
@@ -176,13 +153,11 @@ nav ul li a:hover {
 }
 .search .content .location .tempat p {
     display: flex;
-    margin-left: 30px;
-    color: var(--Grey-1, #808080);
     font-family: Barlow;
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 5px;
 }
 .search .content .location .tempat .papua p {
     color: var(--Black, #112b3c);
@@ -190,7 +165,6 @@ nav ul li a:hover {
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 .search .content input {
     border: none;
@@ -459,100 +433,103 @@ nav ul li a:hover {
     margin-left: -35px;
 }
 /* Blog */
-.blog {
+#rumahKonten {
     display: flex;
-    width: 76.6875rem;
-    flex-direction: column;
-    gap: 0.75rem;
-    margin: auto;
-    margin-top: -100;
-}
-.blog .blog1 p {
-    color: #292f36;
-    text-align: center;
-    font-family: DM Serif Display;
-    font-size: 3.75rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%; /* 4.6875rem */
-    letter-spacing: 0.075rem;
-}
-.blog .text p {
-    display: flex;
-    margin-top: -90px;
-    width: 76.5625rem;
-    height: 24.25rem;
-    flex-direction: column;
+    width: 100.625rem;
     justify-content: center;
-    color: #4d5053;
+    align-items: flex-start;
+    gap: 3.375rem;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 3.25rem;
+}
 
-    text-align: center;
-    font-family: Jost;
-    font-size: 1.75rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 2.625rem */
-    letter-spacing: 0.0175rem;
-}
-.blogg {
-    margin: auto;
+.kotakKonten {
     display: flex;
-    width: 75.625rem;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1.6875rem;
-}
-.blogg .frame1 {
-    position: relative;
-    left: -500px;
-    width: 23.875rem;
-    height: 32.5625rem;
-    flex-shrink: 0;
-    z-index: 1;
-}
-.blogg .frame1 .subcontent {
-    display: inline-flex;
     padding: 1.3125rem;
     align-items: flex-start;
-    gap: 0.625rem;
-    border-radius: 3.875rem;
-    border: 1px solid #e7e7e7;
-    box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
-}
-.blogg .frame1 .subcontent .content {
-    display: flex;
-    width: 21.25rem;
-    height: 29.9375rem;
     flex-direction: column;
-    align-items: center;
-    gap: 1.3125rem;
 }
-.blogg .frame1 .subcontent .content .bg {
+
+.gambarKonten {
     width: 21.25rem;
     height: 18.07919rem;
-    flex-shrink: 0;
-    border-radius: 2.8125rem 2.8125rem 0rem 0rem;
-    background: #eaeaea;
-}
-.blogg .frame1 .subcontent .content .bg img {
-    width: 24.1875rem;
-    height: 18rem;
-    flex-shrink: 0;
-    margin-left: -20px;
-}
-.blogg .frame1 .text p {
-    position: relative;
-    top: -200px;
-    left: 30px;
-}
-.blogg .frame1 .text .date p {
     display: flex;
-    margin-top: 50px;
+    z-index: 1;
+}
+
+.gambarKonten img {
+    border-radius: 2.8125rem 2.8125rem 0rem 0rem;
+    width: 100%;
+    height: 100%;
+}
+
+.tempat {
+    display: flex;
+    flex-direction: column;
+    width: 7.75rem;
+    height: 2.5625rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
+    background: rgba(62, 28, 28, 0.301);
+    color: #000000;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+    margin-top: -3rem;
+    margin-left: 2rem;
+    z-index: 2;
+}
+
+.tempat1 {
+    display: flex;
+    flex-direction: column;
+    width: 7.75rem;
+    height: 2.5625rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
+    color: #ffffff;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+    margin-top: -3rem;
+    margin-left: 2rem;
+    z-index: 2;
+}
+
+.teksKonten {
+    display: flex;
+    width: 19.0625rem;
+    height: 4.375rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 1.95313rem */
+    letter-spacing: 0.03125rem;
+    flex-wrap: wrap;
+}
+
+.kontenBawah {
+    display: flex;
+    flex-direction: row;
+}
+
+.tanggal {
+    display: flex;
     width: 13.9375rem;
     height: 2.0625rem;
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
     color: #4d5053;
     font-family: Jost;
     font-size: 1rem;
@@ -562,233 +539,11 @@ nav ul li a:hover {
     letter-spacing: 0.01rem;
     text-transform: capitalize;
 }
-.blogg .frame1 .text a button img {
-    position: absolute;
-    top: 490px;
-    left: 350px;
+
+.tombolKonten {
     width: 3.25rem;
     height: 3.25rem;
-    z-index: 1;
-}
-.blogg .frame1 .tag p {
-    position: absolute;
-    top: 280px;
-    left: 50px;
-    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
-    background: rgba(0, 0, 0, 0.5);
-    width: 7.75rem;
-    height: 2.5625rem;
-    flex-shrink: 0;
-    color: #ffffff;
-    font-family: Jost;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 1.5rem */
-    letter-spacing: 0.01rem;
-    text-transform: capitalize;
-}
-/* Blogg1 */
-.blogg1 {
-    margin: auto;
-    display: flex;
-    position: absolute;
-    top: 4080px;
-    left: 830px;
-    width: 75.625rem;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1.6875rem;
-    margin-top: 55.5rem;
-    left: 100rem;
-}
-.blogg1 .frame1 {
-    position: relative;
-    left: 500rem;
-    width: 23.875rem;
-    height: 32.5625rem;
-    flex-shrink: 0;
-    z-index: 1;
-}
-.blogg1 .frame1 .subcontent {
-    display: inline-flex;
-    padding: 1.3125rem;
-    align-items: flex-start;
-    gap: 0.625rem;
-    border-radius: 3.875rem;
-    border: 1px solid #e7e7e7;
-    box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
-    margin-left: 20rem;
-}
-.blogg1 .frame1 .subcontent .content {
-    display: flex;
-    width: 21.25rem;
-    height: 29.9375rem;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.3125rem;
-    margin-left: 20rem;
-}
-.blogg1 .frame1 .subcontent .content .bg {
-    width: 21.25rem;
-    height: 18.07919rem;
-    flex-shrink: 0;
-    border-radius: 2.8125rem 2.8125rem 0rem 0rem;
-    background: #eaeaea;
-    margin-left: 100rem;
-}
-.blogg1 .frame1 .subcontent .content .bg img {
-    width: 24.1875rem;
-    height: 18rem;
-    flex-shrink: 0;
-    margin-left: 100rem;
-}
-.blogg1 .frame1 .text p {
-    position: relative;
-    top: -200px;
-    left: 30px;
-}
-.blogg1 .frame1 .text .date p {
-    display: flex;
-    margin-top: 50px;
-    width: 13.9375rem;
-    height: 2.0625rem;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #4d5053;
-    font-family: Jost;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 1.5rem */
-    letter-spacing: 0.01rem;
-    text-transform: capitalize;
-}
-.blogg1 .frame1 .text a button img {
-    position: absolute;
-    top: 490px;
-    left: 350px;
-    width: 3.25rem;
-    height: 3.25rem;
-    z-index: 1;
-}
-.blogg1 .frame1 .tag p {
-    position: absolute;
-    top: 280px;
-    left: 50px;
-    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
-    background: rgba(0, 0, 0, 0.5);
-    width: 7.75rem;
-    height: 2.5625rem;
-    flex-shrink: 0;
-    color: #ffffff;
-    font-family: Jost;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 1.5rem */
-    letter-spacing: 0.01rem;
-    text-transform: capitalize;
-}
-/* blogg2 */
-.blogg2 {
-    margin: auto;
-    display: flex;
-    position: absolute;
-    top: 4080px;
-    left: 1307px;
-    width: 75.625rem;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1.6875rem;
-    margin-top: 55.5rem;
-}
-.blogg2 .frame1 {
-    position: relative;
-    left: -500px;
-    width: 23.875rem;
-    height: 32.5625rem;
-    flex-shrink: 0;
-    z-index: 1;
-}
-.blogg2 .frame1 .subcontent {
-    display: inline-flex;
-    padding: 1.3125rem;
-    align-items: flex-start;
-    gap: 0.625rem;
-    border-radius: 3.875rem;
-    border: 1px solid #e7e7e7;
-    box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
-}
-.blogg2 .frame1 .subcontent .content {
-    display: flex;
-    width: 21.25rem;
-    height: 29.9375rem;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.3125rem;
-}
-.blogg2 .frame1 .subcontent .content .bg {
-    width: 21.25rem;
-    height: 18.07919rem;
-    flex-shrink: 0;
-    border-radius: 2.8125rem 2.8125rem 0rem 0rem;
-    background: #eaeaea;
-}
-.blogg2 .frame1 .subcontent .content .bg img {
-    width: 24.1875rem;
-    height: 18rem;
-    flex-shrink: 0;
-    margin-left: -20px;
-}
-.blogg2 .frame1 .text p {
-    position: relative;
-    top: -200px;
-    left: 30px;
-}
-.blogg2 .frame1 .text .date p {
-    display: flex;
-    margin-top: 50px;
-    width: 13.9375rem;
-    height: 2.0625rem;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #4d5053;
-    font-family: Jost;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 1.5rem */
-    letter-spacing: 0.01rem;
-    text-transform: capitalize;
-}
-.blogg2 .frame1 .text a button img {
-    position: absolute;
-    top: 490px;
-    left: 350px;
-    width: 3.25rem;
-    height: 3.25rem;
-    z-index: 1;
-}
-.blogg2 .frame1 .tag p {
-    position: absolute;
-    top: 280px;
-    left: 50px;
-    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
-    background: rgba(0, 0, 0, 0.5);
-    width: 7.75rem;
-    height: 2.5625rem;
-    flex-shrink: 0;
-    color: #ffffff;
-    font-family: Jost;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 1.5rem */
-    letter-spacing: 0.01rem;
-    text-transform: capitalize;
+    margin-left: 4.06rem;
 }
 #dataWelcome {
     display: flex;
