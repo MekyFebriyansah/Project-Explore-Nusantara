@@ -25,8 +25,10 @@ Route::get('/', function () {
 });
 
 Route::get('/daftar', [daftarController::class, 'pindah_daftar']);
+Route::post('/daftar', [daftarController::class, 'daftar_akun']) -> name('daftar.post');
 
 Route::get('/masuk', [masukController::class, 'pindah_masuk'] );
+Route::post('/masuk', [masukController::class, 'masuk_akun'] )->name('masuk.post');
 
 Route::get('/tambahBlog', [tambahBlogController::class,'pindah_tambahBlog']);
 
@@ -34,6 +36,6 @@ Route::get('/detailBlog', [detailBlogController::class,'pindah_detailBlog']);
 
 Route::get('/blogAnda', [blogAndaController::class,'pindah_blogAnda']);
 
-Route::get('semuaBlog', [semuaBlogController::class, 'pindah_semuaBlog']);
+Route::get('/semuaBlog', [semuaBlogController::class, 'pindah_semuaBlog']);
 
-Route::get('homepage', [homePageController::class,'pindah_homepage']);
+Route::get('/homepage', [homePageController::class,'pindah_homepage']);

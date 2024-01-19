@@ -10,7 +10,7 @@ class masukController extends Controller
         return view ('masuk');
     }
 
-    public function masuk()
+    public function masuk_akun()
     {
         
     }
