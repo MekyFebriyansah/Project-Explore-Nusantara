@@ -1,4 +1,4 @@
-#semuaBlog {
+#detailBlog {
     width: 120rem;
     height: 120%;
     background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
@@ -87,200 +87,101 @@
     line-height: 125%; /* 1.5625rem */
 }
 
-.tekssemuaBlog {
+.kotakDatadetailBlog {
     display: flex;
-    width: 111.5rem;
-    height: 24.25rem;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+    margin-left: 5.38rem;
+}
+
+.nilaiKotakDatadetailBlog {
+    color: #c76904;
+    font-family: Barlow;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deskripsiKotakDatadetailBlog {
+    width: 6.25rem;
+    color: var(--Grey-1, #808080);
+    font-family: Barlow;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.kotakdetailBlog {
+    display: flex;
+    width: 106.4375rem;
+    height: 36rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+    flex-shrink: 0;
+}
+
+.tanggaldetailBlog {
+    display: flex;
+    width: 13.9375rem;
+    height: 2.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
     color: #4d5053;
-    text-align: center;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+}
+
+.juduldetailBlog {
+    width: 106.4375rem;
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.90625rem */
+    letter-spacing: 0.0625rem;
+}
+
+.teksjuduldetailBlog {
+    width: 107.75rem;
+    height: 36.5rem;
+    color: #4d5053;
+    text-align: justify;
     font-family: Jost;
     font-size: 1.75rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 2.625rem */
     letter-spacing: 0.0175rem;
-    margin-bottom: -4rem;
-}
-
-#rumahKonten {
-    display: flex;
-    width: 100.625rem;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 3.375rem;
-    margin: auto;
+    margin-top: 1.88rem;
     flex-wrap: wrap;
-    margin-top: 3.25rem;
 }
 
-.kotakKonten {
-    display: flex;
-    padding: 1.3125rem;
-    align-items: flex-start;
-    flex-direction: column;
+.gambardetailBlog {
+    width: 107.1875rem;
+    height: 46.6875rem;
+    border-radius: 6.25rem;
+    margin-top: 17.47rem;
+    margin-left: 6.69rem;
+    margin-right: auto;
+    margin-bottom: 5.56rem;
 }
 
-.gambarKonten {
-    width: 21.25rem;
-    height: 18.07919rem;
-    display: flex;
-    z-index: 1;
-}
-
-.gambarKonten img {
-    border-radius: 2.8125rem 2.8125rem 0rem 0rem;
+.gambardetailBlog img {
     width: 100%;
     height: 100%;
-}
-
-.tempat {
-    display: flex;
-    width: 7.75rem;
-    height: 2.5625rem;
-    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    font-family: Jost;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 1.5rem */
-    letter-spacing: 0.01rem;
-    text-transform: capitalize;
-    margin-top: -3rem;
-    margin-left: 2rem;
-    z-index: 2;
-}
-
-.teksKonten {
-    display: flex;
-    width: 19.0625rem;
-    height: 4.375rem;
-    flex-direction: column;
-    justify-content: center;
-    color: #292f36;
-    font-family: DM Serif Display;
-    font-size: 1.5625rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%; /* 1.95313rem */
-    letter-spacing: 0.03125rem;
-    flex-wrap: wrap;
-}
-
-.kontenBawah {
-    display: flex;
-    flex-direction: row;
-}
-
-.tanggal {
-    display: flex;
-    width: 13.9375rem;
-    height: 2.0625rem;
-    flex-direction: column;
-    justify-content: center;
-    color: #4d5053;
-    font-family: Jost;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 1.5rem */
-    letter-spacing: 0.01rem;
-    text-transform: capitalize;
-}
-
-.tombolKonten {
-    width: 3.25rem;
-    height: 3.25rem;
-    margin-left: 4.06rem;
-}
-
-.searchsemuaBlog {
-    width: 31.25rem;
-    height: 5.375rem;
-    border-radius: 3.625rem;
-    background: #fff;
-    /* D1 */
-    box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
-    margin-left: 45.06rem;
-    display: flex;
-    flex-direction: row;
-}
-.isiPencarianKiri {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.tulisantanggal {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
-}
-
-.tulisanTanggalAtas {
-    color: var(--Grey-1, #808080);
-    font-family: Barlow;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.tulisanTanggalBawah {
-    color: var(--Black, #112b3c);
-    font-family: Barlow;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.gambartanggal {
-    display: flex;
-    width: 1.375rem;
-    height: 1.375rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5rem;
-}
-
-.datasemuaBlog {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    justify-content: center;
-}
-
-.tulisantanggal {
-    display: flex;
-    align-items: center;
-    gap: 1.375rem;
-    color: var(--Grey-1, #808080);
-    font-family: Barlow;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.tanggal {
-    color: var(--Black, #112b3c);
-    font-family: Barlow;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.dropdwon {
-    width: 0.875rem;
-    height: 0.875rem;
-    flex-direction: row;
+    border-radius: 6.25rem;
 }
 
 #footer {
@@ -293,6 +194,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 2.75rem;
 }
 
 .judulFooter {
@@ -339,12 +241,6 @@
     margin-top: 1.94rem;
 }
 
-.logoGambarPencarianKiri {
-    display: flex;
-    margin-left: 2rem;
-    margin-right: 1rem;
-}
-
 #copyright {
     color: #4d5053;
     font-family: Jost;
@@ -384,21 +280,4 @@
     letter-spacing: 0.0225rem;
     margin-top: 0.13rem;
     width: fit-content;
-}
-
-#tombolPencarian {
-    fill: #3d6299;
-    display: flex;
-    margin-left: 1.76rem;
-    align-items: center;
-    justify-content: center;
-}
-
-#tombolPencarian button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    fill: none;
-    background: none;
 }

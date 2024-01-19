@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('assets/css/homepage.css') }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +15,8 @@
     <title>Home Page</title>
 </head>
 <body>
+<div class="homepage">
     <nav>
-
         <div class="judul">
             <h3>Explore Nusantara</h3>
         </div>
@@ -37,13 +38,13 @@
             <span id="slide-6"></span>
             <span id="slide-7"></span>
             <div class="gambar">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
-                <img src="assets/rectangle 18.png" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
+                <img src="{{ asset('assets/img/Rectangle 18.png') }}" alt="">
             </div>
             <div class="lombok">Lombok, Indonesia</div>
         </div>
@@ -60,7 +61,10 @@
     <div class="search">
         <div class="content">
             <div class="location">
-                <img src="assets/vuesax-linear-location-DbS.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <path d="M10.9996 12.3108C12.5792 12.3108 13.8596 11.0304 13.8596 9.45084C13.8596 7.8713 12.5792 6.59084 10.9996 6.59084C9.42011 6.59084 8.13965 7.8713 8.13965 9.45084C8.13965 11.0304 9.42011 12.3108 10.9996 12.3108Z" fill="white" stroke="#3D6299" stroke-width="1.5"/>
+                        <path d="M3.31823 7.7825C5.12406 -0.155836 16.8849 -0.14667 18.6816 7.79166C19.7357 12.4483 16.8391 16.39 14.2999 18.8283C12.4574 20.6067 9.5424 20.6067 7.69073 18.8283C5.16073 16.39 2.26406 12.4392 3.31823 7.7825Z" fill="white" stroke="#3D6299" stroke-width="1.5"/>
+                      </svg>
                 <div class="tempat">
                     <p>Lokasi</p>
                     <div class="papua"><p>Papua, Papua barat</p></div>
@@ -68,8 +72,10 @@
             </div>
             <input type="text">
             <div class="tombolsearch">
-                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
                     <circle cx="24.6797" cy="24.2" r="24" fill="#3D6299"/>
+                    <path d="M12.1797 21.95C6.52969 21.95 1.92969 17.35 1.92969 11.7C1.92969 6.04995 6.52969 1.44995 12.1797 1.44995C17.8297 1.44995 22.4297 6.04995 22.4297 11.7C22.4297 17.35 17.8297 21.95 12.1797 21.95ZM12.1797 2.94995C7.34969 2.94995 3.42969 6.87995 3.42969 11.7C3.42969 16.52 7.34969 20.45 12.1797 20.45C17.0097 20.45 20.9297 16.52 20.9297 11.7C20.9297 6.87995 17.0097 2.94995 12.1797 2.94995Z" fill="white"/>
+                    <path d="M22.6801 22.95C22.4901 22.95 22.3001 22.88 22.1501 22.73L20.1501 20.73C19.8601 20.44 19.8601 19.96 20.1501 19.67C20.4401 19.38 20.9201 19.38 21.2101 19.67L23.2101 21.67C23.5001 21.96 23.5001 22.44 23.2101 22.73C23.0601 22.88 22.8701 22.95 22.6801 22.95Z" fill="white"/>
                     </svg>  
                 </a>
             </div>
@@ -88,20 +94,20 @@
         <div class="p1"><p>Dari tradisi adat yang kuno hingga kehidupan modern yang berirama, dari keunikan kuliner hingga keanekaragaman tarian dan musik, Nusantara adalah laboratorium budaya yang mengagumkan.</p></div>
     <div class="rectangle">
         <div class="img1">
-            <img src="assets/rectangle-4-bg.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 4.png') }}" alt="">
         </div>
         <div class="img2">
-            <img src="assets/rectangle-5-bg.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 5.png') }}" alt="">
         </div>
         <div class="img3">
-            <img src="assets/rectangle-7-bg.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 7.png') }}" alt="">
         </div>
     </div>
     <div class="subcontent1">
         <p>Morotai, Maluku Utara</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
@@ -109,7 +115,7 @@
         <p>Raja Ampat, Papua barat</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
@@ -117,20 +123,20 @@
         <p>Kawah Putih, Jawa Barat</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
     {{-- Rectangle1 --}}
     <div class="rectangle1">
         <div class="img4">
-            <img src="assets/rectangle-19-bg-YB6.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 19.png') }}" alt="">
         </div>
         <div class="img5">
-            <img src="assets/rectangle-20-bg-Qda.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 20.png') }}" alt="">
         </div>
         <div class="img6">
-            <img src="assets/rectangle-21-bg.png" alt="">
+            <img src="{{ asset('assets/img/Rectangle 21.png') }}" alt="">
         </div>
     </div>
     {{-- subconten --}}
@@ -138,7 +144,7 @@
         <p>Savana Bromo, Jawa Timur</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
@@ -146,7 +152,7 @@
         <p>Candi Borobudur, Jawa Tengah</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
@@ -154,7 +160,7 @@
         <p>Semeru, Jawa Timur</p>
         <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
             <button type="button" onclick="handleButtonClick()" style="border: none;">
-                <img src="assets/_.png" alt="Button">
+                <img src="{{ asset('assets/img/_.svg') }}" alt="Button">
             </button>
         </a>
     </div>
@@ -163,88 +169,68 @@
         <div class="text"><p>Dari pantai-pantai tropis yang memukau hingga pegunungan yang menakjubkan, kami akan membawa Anda melalui perjalanan visual dan naratif yang memukau, mengungkapkan keindahan panorama alamnya yang menakjubkan, dari pantai-pantai mempesona hingga gunung-gung megah yang memikat. Kami juga akan memperkenalkan Anda pada kekayaan budaya Indonesia, dari tradisi yang kuno hingga keunikan kuliner yang lezat.</p></div>
     </div>
     {{-- Blog1 --}}
-    <div class="blogg">
-        <div class="frame1">
-            <div class="tag"><p>Papua</p></div>
-            <div class="subcontent">
-                <div class="content">
-                    <div class="bg"><img src="assets/image-4J8.png" alt=""></div>                  
-                </div>
+    <div id="rumahKonten">
+        <div class="kotakKonten">
+            <div class="gambarKonten">
+                <img src="{{ asset('assets/img/Photo.png') }}" alt="">
             </div>
-            <div class="text">
-                <p>Kesederhanaan yang<br>Megah.</p>
-                <div class="date"><p>26 December,2022</p></div>
-                <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
-                    <button type="button" onclick="handleButtonClick()" style="border: none;">
-                        <img src="assets/_.png" alt="Button">
-                    </button>
-                </a>
+            <div class="tempat1">
+                Papua
+            </div>
+            <div class="teksKonten">
+                Kesederhanaan yang Megah.
+            </div>
+            <div class="kontenBawah">
+                <div class="tanggal">26 December,2022 </div>
+                <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
+                    <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
+                    <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
+                    <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></a></div>
+            </div>
+        </div>
+        <div class="kotakKonten">
+            <div class="gambarKonten">
+                <img src="{{ asset('assets/img/Photo (1).png') }}" alt="">
+            </div>
+            <div class="tempat1">
+                Papua
+            </div>
+            <div class="teksKonten">
+                Kesederhanaan yang Megah.
+            </div>
+            <div class="kontenBawah">
+                <div class="tanggal">26 December,2022 </div>
+                <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
+                    <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
+                    <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
+                    <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></a></div>
+            </div>
+        </div>
+        <div class="kotakKonten">
+            <div class="gambarKonten">
+                <img src="{{ asset('assets/img/Photo (2).png') }}" alt="">
+            </div>
+            <div class="tempat">
+                Papua
+            </div>
+            <div class="teksKonten">
+                Kesederhanaan yang Megah.
+            </div>
+            <div class="kontenBawah">
+                <div class="tanggal">26 December,2022 </div>
+                <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
+                    <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
+                    <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
+                    <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></a></div>
             </div>
         </div>
     </div>
-    {{-- Blog 2 --}}
-    <div class="blogg1">
-        <div class="frame1">
-            <div class="tag"><p>bali</p></div>
-            <div class="subcontent">
-                <div class="content">
-                    <div class="bg"><img src="assets/image.png" alt=""></div>                  
-                </div>
-            </div>
-            <div class="text">
-                <p>Ritual Spiritual Budaya<br>yang Mengesankan.</p>
-                <div class="date"><p>22 November,2023</p></div>
-                <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
-                    <button type="button" onclick="handleButtonClick()" style="border: none;">
-                        <img src="assets/_.png" alt="Button">
-                    </button>
-                </a>
-            </div>
-        </div>
-    </div>
-    {{-- Blog3 --}}
-    <div class="blogg2">
-        <div class="frame1">
-            <div class="tag"><p>Medan</p></div>
-            <div class="subcontent">
-                <div class="content">
-                    <div class="bg"><img src="assets/image-6LL.png" alt=""></div>                  
-                </div>
-            </div>
-            <div class="text">
-                <p>Keagungan Budaya Nias<br>yang Kaya.</p>
-                <div class="date"><p>4 December,2023</p></div>
-                <a href="https://www.figma.com/file/kdBaRhoVqJa4Nbny6ynCYj/Desain?node-id=66%3A237&mode=dev">
-                    <button type="button" onclick="handleButtonClick()" style="border: none;">
-                        <img src="assets/_.png" alt="Button">
-                    </button>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div id="dataWelcome">
-        <div class="kotakDataWelcome">
-          <div class="nilaiKotakDataWelcome">1</div>
-          <div class="deskripsiKotakDataWelcome">Negara</div>
-        </div>
-        <hr>
-        <div class="kotakDataWelcome">
-          <div class="nilaiKotakDataWelcome">1074</div>
-          <div class="deskripsiKotakDataWelcome">Dikunjungi Hari Ini</div>
-        </div>
-        <hr>
-        <div class="kotakDataWelcome">
-          <div class="nilaiKotakDataWelcome">38</div>
-          <div class="deskripsiKotakDataWelcome">Provinsi</div>
-        </div>
-        <hr>
-        <div class="kotakDataWelcome">
-          <div class="nilaiKotakDataWelcome">56</div>
-          <div class="deskripsiKotakDataWelcome">Wisata Terdata</div>
-        </div>
-      </div>
     {{-- footer --}}
     <div id="footer">
+        <div class="judulFooter">Bumi Indonesia</div>
         <a href="" style="text-decoration: none"><div class="tombolPageAtas">Hubungi Kami <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
           <path d="M1 8.43536L14.7232 8.29851M9.61818 1.91132L16.1412 8.4343L9.48677 15.0887" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
         </svg></div></a>
@@ -272,5 +258,7 @@
         </div>
       </div>
       <div id="copyright">Copyright © EkaMelisa </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

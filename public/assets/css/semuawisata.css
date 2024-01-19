@@ -1,4 +1,4 @@
-#semuaBlog {
+#semuawisata {
     width: 120rem;
     height: 120%;
     background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
@@ -87,10 +87,10 @@
     line-height: 125%; /* 1.5625rem */
 }
 
-.tekssemuaBlog {
+.tekssemuawisata {
     display: flex;
     width: 111.5rem;
-    height: 24.25rem;
+    height: 14.0625rem;
     flex-direction: column;
     justify-content: center;
     color: #4d5053;
@@ -101,100 +101,34 @@
     font-weight: 400;
     line-height: 150%; /* 2.625rem */
     letter-spacing: 0.0175rem;
-    margin-bottom: -4rem;
 }
 
-#rumahKonten {
-    display: flex;
-    width: 100.625rem;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 3.375rem;
-    margin: auto;
-    flex-wrap: wrap;
-    margin-top: 3.25rem;
-}
-
-.kotakKonten {
-    display: flex;
-    padding: 1.3125rem;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.gambarKonten {
-    width: 21.25rem;
-    height: 18.07919rem;
-    display: flex;
-    z-index: 1;
-}
-
-.gambarKonten img {
-    border-radius: 2.8125rem 2.8125rem 0rem 0rem;
-    width: 100%;
-    height: 100%;
-}
-
-.tempat {
-    display: flex;
-    width: 7.75rem;
-    height: 2.5625rem;
-    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    font-family: Jost;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 1.5rem */
-    letter-spacing: 0.01rem;
-    text-transform: capitalize;
-    margin-top: -3rem;
-    margin-left: 2rem;
-    z-index: 2;
-}
-
-.teksKonten {
-    display: flex;
-    width: 19.0625rem;
-    height: 4.375rem;
-    flex-direction: column;
-    justify-content: center;
-    color: #292f36;
-    font-family: DM Serif Display;
-    font-size: 1.5625rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%; /* 1.95313rem */
-    letter-spacing: 0.03125rem;
-    flex-wrap: wrap;
-}
-
-.kontenBawah {
-    display: flex;
-    flex-direction: row;
-}
-
-.tanggal {
-    display: flex;
-    width: 13.9375rem;
-    height: 2.0625rem;
-    flex-direction: column;
-    justify-content: center;
+.teksdiataspencarian {
     color: #4d5053;
-    font-family: Jost;
-    font-size: 1rem;
+    font-family: DM Serif Display;
+    font-size: 1.75rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 1.5rem */
-    letter-spacing: 0.01rem;
-    text-transform: capitalize;
+    line-height: 150%;
+    letter-spacing: 0.0175rem;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin-left: 33rem;
 }
 
-.tombolKonten {
-    width: 3.25rem;
-    height: 3.25rem;
-    margin-left: 4.06rem;
+.teksdiataspencarian1 {
+    color: #4d5053;
+    font-family: DM Serif Display;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.0175rem;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin-left: 10rem;
 }
 
 .searchsemuaBlog {
@@ -204,7 +138,7 @@
     background: #fff;
     /* D1 */
     box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
-    margin-left: 45.06rem;
+    margin-left: 40.38rem;
     display: flex;
     flex-direction: row;
 }
@@ -247,40 +181,101 @@
     margin-left: 5rem;
 }
 
-.datasemuaBlog {
+.logoGambarPencarianKiri {
     display: flex;
+    margin-left: 8rem;
+    margin-right: 1rem;
+}
+
+#tombolPencarian {
+    fill: #3d6299;
+    display: flex;
+    margin-left: 1.76rem;
     align-items: center;
-    gap: 1rem;
     justify-content: center;
 }
 
-.tulisantanggal {
+#tombolPencarian button {
     display: flex;
     align-items: center;
-    gap: 1.375rem;
-    color: var(--Grey-1, #808080);
-    font-family: Barlow;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    flex-direction: column;
     justify-content: center;
+    border: none;
+    fill: none;
+    background: none;
 }
 
-.tanggal {
-    color: var(--Black, #112b3c);
-    font-family: Barlow;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.dropdwon {
-    width: 0.875rem;
-    height: 0.875rem;
+.gambar {
+    width: 36.125rem;
+    height: 24.875rem;
+    display: flex;
+    margin-top: 3rem;
     flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.gambar img {
+    border-radius: 18.75rem 0rem 25rem 0rem;
+    width: 100%;
+    height: 100%;
+}
+
+#rumahKonten {
+    display: flex;
+    width: 130.625rem;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 5.25rem;
+    margin-left: 10rem;
+}
+
+.kotakKonten {
+    display: flex;
+    padding: 1.3125rem;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.gambarKonten {
+    width: 30.125rem;
+    height: 20.875rem;
+    display: flex;
+    z-index: 1;
+}
+
+.gambarKonten img {
+    border-radius: 18.75rem 0rem 25rem 0rem;
+    width: 100%;
+    height: 100%;
+}
+
+.tempat {
+    display: flex;
+    width: 7.75rem;
+    height: 2.5625rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
+    color: #fff;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+    margin-top: -3rem;
+    margin-left: 2rem;
+    z-index: 2;
+}
+
+.tombolKonten {
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-left: 26.06rem;
 }
 
 #footer {
@@ -384,21 +379,4 @@
     letter-spacing: 0.0225rem;
     margin-top: 0.13rem;
     width: fit-content;
-}
-
-#tombolPencarian {
-    fill: #3d6299;
-    display: flex;
-    margin-left: 1.76rem;
-    align-items: center;
-    justify-content: center;
-}
-
-#tombolPencarian button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    fill: none;
-    background: none;
 }
