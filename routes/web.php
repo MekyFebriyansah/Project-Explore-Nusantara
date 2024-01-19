@@ -57,4 +57,3 @@ Route::get('tambahwisata', [tambahwisataController::class,'pindah_tambahwisata']
 Route::get('detailwisata', [detailwisataController::class,'pindah_detailwisata']);
 
 Route::get('profil', [profilController::class,'pindah_profil']);
->>>>>>> 806ae1db4b24841520834d8aad8f0a54bd7315d6
