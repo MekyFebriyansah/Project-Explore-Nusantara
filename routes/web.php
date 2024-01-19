@@ -43,9 +43,8 @@ Route::get('/blogAnda', [blogAndaController::class,'pindah_blogAnda']);
 
 Route::get('/semuaBlog', [semuaBlogController::class, 'pindah_semuaBlog']);
 
-<<<<<<< HEAD
 Route::get('/homepage', [homePageController::class,'pindah_homepage']);
-=======
+
 Route::get('homepage', [homePageController::class,'pindah_homepage']);
 
 Route::get('semuawisata', [semuawisataController::class,'pindah_semuawisata']);
