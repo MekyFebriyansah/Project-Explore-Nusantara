@@ -1,0 +1,283 @@
+#detailBlog {
+    width: 120rem;
+    height: 120%;
+    background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
+    margin: auto;
+}
+#header {
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+#judulheader {
+    color: #181e4b;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2.19rem;
+    margin-left: 5rem;
+    align-items: center;
+}
+#navigasiBlog {
+    display: flex;
+    margin-right: 5.01rem;
+    margin-left: auto;
+    margin-top: 2.19rem;
+    gap: 3.5rem;
+}
+.keluarBlog a {
+    text-decoration: none;
+}
+.keluarBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.profilBlog a {
+    text-decoration: none;
+}
+.profilBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.wisataBlog a {
+    text-decoration: none;
+}
+.wisataBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.blogBlog a {
+    text-decoration: none;
+}
+.blogBlog {
+    color: #c76904;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.berandaBlog a {
+    text-decoration: none;
+}
+.berandaBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+
+.kotakDatadetailBlog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5.38rem;
+}
+
+.nilaiKotakDatadetailBlog {
+    color: #c76904;
+    font-family: Barlow;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deskripsiKotakDatadetailBlog {
+    width: 6.25rem;
+    color: var(--Grey-1, #808080);
+    font-family: Barlow;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.kotakdetailBlog {
+    display: flex;
+    width: 106.4375rem;
+    height: 36rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+    flex-shrink: 0;
+}
+
+.tanggaldetailBlog {
+    display: flex;
+    width: 13.9375rem;
+    height: 2.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+}
+
+.juduldetailBlog {
+    width: 106.4375rem;
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.90625rem */
+    letter-spacing: 0.0625rem;
+}
+
+.teksjuduldetailBlog {
+    width: 107.75rem;
+    height: 36.5rem;
+    color: #4d5053;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.625rem */
+    letter-spacing: 0.0175rem;
+    margin-top: 1.88rem;
+    flex-wrap: wrap;
+}
+
+.gambardetailBlog {
+    width: 107.1875rem;
+    height: 46.6875rem;
+    border-radius: 6.25rem;
+    margin-top: 17.47rem;
+    margin-left: 6.69rem;
+    margin-right: auto;
+    margin-bottom: 5.56rem;
+}
+
+.gambardetailBlog img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6.25rem;
+}
+
+#footer {
+    width: 120rem;
+    height: 26.875rem;
+    background: url("/assets/img/footer.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 9.44rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.75rem;
+}
+
+.judulFooter {
+    color: #fff;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.90625rem */
+    margin-top: 5rem;
+}
+
+#kredit {
+    display: flex;
+    flex-direction: column;
+}
+
+.judulKredit {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.125rem */
+}
+
+.deskripsiKredit {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    margin-top: 1.12rem;
+}
+
+.logoKredit {
+    display: flex;
+    width: 14.0625rem;
+    align-items: center;
+    gap: 3.375rem;
+    margin-top: 1.94rem;
+}
+
+#copyright {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 8.63rem;
+}
+
+.tombolPageAtas {
+    display: flex;
+    padding: 1.625rem 3.0625rem 1.625rem 3rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.125rem;
+    background: linear-gradient(
+        180deg,
+        rgba(24, 33, 113, 0) 0%,
+        rgba(24, 70, 113, 0.71) 0.01%
+    );
+    box-shadow: 0px 0px 0px 0px rgba(192, 192, 192, 0.35);
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 1.40625rem */
+    letter-spacing: 0.0225rem;
+    margin-top: 0.13rem;
+    width: fit-content;
+}

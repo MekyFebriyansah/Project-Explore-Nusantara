@@ -1,0 +1,404 @@
+#semuaBlog {
+    width: 120rem;
+    height: 120%;
+    background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
+    margin: auto;
+}
+#header {
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+#judulheader {
+    color: #181e4b;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2.19rem;
+    margin-left: 5rem;
+    align-items: center;
+}
+#navigasiBlog {
+    display: flex;
+    margin-right: 5.01rem;
+    margin-left: auto;
+    margin-top: 2.19rem;
+    gap: 3.5rem;
+}
+.keluarBlog a {
+    text-decoration: none;
+}
+.keluarBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.profilBlog a {
+    text-decoration: none;
+}
+.profilBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.wisataBlog a {
+    text-decoration: none;
+}
+.wisataBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.blogBlog a {
+    text-decoration: none;
+}
+.blogBlog {
+    color: #c76904;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+.berandaBlog a {
+    text-decoration: none;
+}
+.berandaBlog {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+}
+
+.tekssemuaBlog {
+    display: flex;
+    width: 111.5rem;
+    height: 24.25rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #4d5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.625rem */
+    letter-spacing: 0.0175rem;
+    margin-bottom: -4rem;
+}
+
+#rumahKonten {
+    display: flex;
+    width: 100.625rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3.375rem;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 3.25rem;
+}
+
+.kotakKonten {
+    display: flex;
+    padding: 1.3125rem;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.gambarKonten {
+    width: 21.25rem;
+    height: 18.07919rem;
+    display: flex;
+    z-index: 1;
+}
+
+.gambarKonten img {
+    border-radius: 2.8125rem 2.8125rem 0rem 0rem;
+    width: 100%;
+    height: 100%;
+}
+
+.tempat {
+    display: flex;
+    width: 7.75rem;
+    height: 2.5625rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+    margin-top: -3rem;
+    margin-left: 2rem;
+    z-index: 2;
+}
+
+.teksKonten {
+    display: flex;
+    width: 19.0625rem;
+    height: 4.375rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 1.95313rem */
+    letter-spacing: 0.03125rem;
+    flex-wrap: wrap;
+}
+
+.kontenBawah {
+    display: flex;
+    flex-direction: row;
+}
+
+.tanggal {
+    display: flex;
+    width: 13.9375rem;
+    height: 2.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+}
+
+.tombolKonten {
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-left: 4.06rem;
+}
+
+.searchsemuaBlog {
+    width: 31.25rem;
+    height: 5.375rem;
+    border-radius: 3.625rem;
+    background: #fff;
+    /* D1 */
+    box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
+    margin-left: 45.06rem;
+    display: flex;
+    flex-direction: row;
+}
+.isiPencarianKiri {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisantanggal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.tulisanTanggalAtas {
+    color: var(--Grey-1, #808080);
+    font-family: Barlow;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tulisanTanggalBawah {
+    color: var(--Black, #112b3c);
+    font-family: Barlow;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.gambartanggal {
+    display: flex;
+    width: 1.375rem;
+    height: 1.375rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.datasemuaBlog {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.tulisantanggal {
+    display: flex;
+    align-items: center;
+    gap: 1.375rem;
+    color: var(--Grey-1, #808080);
+    font-family: Barlow;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tanggal {
+    color: var(--Black, #112b3c);
+    font-family: Barlow;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dropdwon {
+    width: 0.875rem;
+    height: 0.875rem;
+    flex-direction: row;
+}
+
+#footer {
+    width: 120rem;
+    height: 26.875rem;
+    background: url("/assets/img/footer.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 9.44rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.judulFooter {
+    color: #fff;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.90625rem */
+    margin-top: 5rem;
+}
+
+#kredit {
+    display: flex;
+    flex-direction: column;
+}
+
+.judulKredit {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.125rem */
+}
+
+.deskripsiKredit {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    margin-top: 1.12rem;
+}
+
+.logoKredit {
+    display: flex;
+    width: 14.0625rem;
+    align-items: center;
+    gap: 3.375rem;
+    margin-top: 1.94rem;
+}
+
+.logoGambarPencarianKiri {
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+#copyright {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 8.63rem;
+}
+
+.tombolPageAtas {
+    display: flex;
+    padding: 1.625rem 3.0625rem 1.625rem 3rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.125rem;
+    background: linear-gradient(
+        180deg,
+        rgba(24, 33, 113, 0) 0%,
+        rgba(24, 70, 113, 0.71) 0.01%
+    );
+    box-shadow: 0px 0px 0px 0px rgba(192, 192, 192, 0.35);
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 1.40625rem */
+    letter-spacing: 0.0225rem;
+    margin-top: 0.13rem;
+    width: fit-content;
+}
+
+#tombolPencarian {
+    fill: #3d6299;
+    display: flex;
+    margin-left: 1.76rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#tombolPencarian button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    fill: none;
+    background: none;
+}

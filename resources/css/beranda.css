@@ -1,0 +1,733 @@
+.landing-page {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.landing-page .div {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(
+        180deg,
+        rgb(252.88, 250.28, 226.89) 0%,
+        rgb(255, 255, 255) 52.5%
+    );
+    width: 1920px;
+    height: 5645px;
+    position: relative;
+}
+
+.landing-page .overlap-group {
+    position: absolute;
+    width: 1760px;
+    height: 870px;
+    top: 146px;
+    left: 80px;
+    background-image: url(./img/rectangle-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page .text-wrapper {
+    position: absolute;
+    width: 999px;
+    height: 131px;
+    top: 369px;
+    left: 413px;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #fffae3;
+    font-size: 96px;
+    letter-spacing: -3.84px;
+    line-height: 60px;
+}
+
+.landing-page .p {
+    position: absolute;
+    width: 470px;
+    height: 33px;
+    top: 502px;
+    left: 659px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    line-height: 33px;
+}
+
+.landing-page .button {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 26px 49px 26px 48px;
+    position: absolute;
+    top: 538px;
+    left: 739px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 20px #c0c0c059;
+    background: linear-gradient(
+        180deg,
+        rgba(23.93, 33.07, 112.62, 0) 0%,
+        rgba(23.93, 70.05, 112.62, 0.71) 0.01%
+    );
+    all: unset;
+    box-sizing: border-box;
+}
+
+.landing-page .get-started {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.landing-page .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    line-height: 22.5px;
+    white-space: nowrap;
+}
+
+.landing-page .vector {
+    position: relative;
+    width: 17.15px;
+    height: 16.01px;
+    margin-right: -1px;
+}
+
+.landing-page .overlap {
+    position: absolute;
+    width: 904px;
+    height: 581px;
+    top: 1699px;
+    left: 85px;
+}
+
+.landing-page .there-are-many {
+    position: absolute;
+    width: 324px;
+    height: 99px;
+    top: 354px;
+    left: 290px;
+    font-family: "Jost-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    line-height: 33px;
+}
+
+.landing-page .rectangle {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 904px;
+    height: 581px;
+    object-fit: cover;
+}
+
+.landing-page .counter {
+    position: absolute;
+    width: 1920px;
+    height: 457px;
+    top: 4401px;
+    left: 0;
+}
+
+.landing-page .background {
+    position: absolute;
+    width: 1920px;
+    height: 457px;
+    top: 1402px;
+    left: -871px;
+}
+
+.landing-page .counter-2 {
+    display: flex;
+    width: 1082px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 76px;
+    position: absolute;
+    top: 151px;
+    left: 419px;
+}
+
+.landing-page .element {
+    position: relative;
+    width: 246px;
+    height: 155px;
+}
+
+.landing-page .line {
+    position: absolute;
+    width: 1px;
+    height: 130px;
+    top: 18px;
+    left: 246px;
+    object-fit: cover;
+}
+
+.landing-page .text {
+    width: 192px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.landing-page .text-wrapper-3 {
+    position: relative;
+    width: 39px;
+    margin-top: -1px;
+    color: #cda274;
+    font-size: 85px;
+    letter-spacing: 1.7px;
+    line-height: 106.2px;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+}
+
+.landing-page .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #4d5053;
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    line-height: 33px;
+    white-space: nowrap;
+}
+
+.landing-page .element-2 {
+    position: relative;
+    width: 223px;
+    height: 155px;
+}
+
+.landing-page .img {
+    top: 12px;
+    left: 223px;
+    position: absolute;
+    width: 1px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.landing-page .text-2 {
+    width: 147px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.landing-page .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    margin-left: -9px;
+    margin-right: -9px;
+    color: #cda274;
+    font-size: 85px;
+    letter-spacing: 1.7px;
+    line-height: 106.2px;
+    white-space: nowrap;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+}
+
+.landing-page .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-left: -16.5px;
+    margin-right: -16.5px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #4d5053;
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    line-height: 33px;
+    white-space: nowrap;
+}
+
+.landing-page .element-3 {
+    position: relative;
+    width: 214px;
+    height: 155px;
+}
+
+.landing-page .line-2 {
+    top: 11px;
+    left: 214px;
+    position: absolute;
+    width: 1px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.landing-page .text-3 {
+    width: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.landing-page .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #cda274;
+    font-size: 85px;
+    letter-spacing: 1.7px;
+    line-height: 106.2px;
+    white-space: nowrap;
+}
+
+.landing-page .div-wrapper {
+    position: relative;
+    width: 171px;
+    height: 155px;
+}
+
+.landing-page .text-4 {
+    width: 171px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.landing-page .heading {
+    display: flex;
+    flex-direction: column;
+    width: 811px;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    top: 3222px;
+    left: 572px;
+}
+
+.landing-page .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #292f36;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 75px;
+    white-space: nowrap;
+}
+
+.landing-page .indonesia-tanah-yang {
+    position: relative;
+    width: 1581px;
+    margin-left: -385px;
+    margin-right: -385px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #4d4f52;
+    font-size: 28px;
+    text-align: justify;
+    letter-spacing: 0.28px;
+    line-height: 42px;
+}
+
+.landing-page .content-wrapper {
+    position: absolute;
+    width: 1920px;
+    height: 430px;
+    top: 4858px;
+    left: 0;
+    background-image: url(./img/rectangle-10.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page .content {
+    display: flex;
+    flex-direction: column;
+    width: 569px;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    top: 80px;
+    left: 675px;
+}
+
+.landing-page .sub-title {
+    width: 569px;
+    align-items: center;
+    gap: 11px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.landing-page .text-wrapper-9 {
+    position: relative;
+    width: 569px;
+    margin-top: -1px;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 62.5px;
+}
+
+.landing-page .contact-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 26px 37px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 18px;
+    box-shadow: 0px 10px 20px #1f2022;
+    background: linear-gradient(
+        180deg,
+        rgba(24, 33, 113, 0) 0%,
+        rgba(24, 33, 113, 0.69) 0.01%
+    );
+    all: unset;
+    box-sizing: border-box;
+}
+
+.landing-page .contact {
+    display: flex;
+    width: 163.14px;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.landing-page .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Jost-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    line-height: 22.5px;
+    white-space: nowrap;
+}
+
+.landing-page .vector-2 {
+    position: relative;
+    width: 17.15px;
+    height: 16.01px;
+}
+
+.landing-page .interno {
+    display: flex;
+    width: 1210px;
+    align-items: flex-start;
+    gap: 101px;
+    position: absolute;
+    top: 5288px;
+    left: 34px;
+}
+
+.landing-page .interno-2 {
+    display: flex;
+    flex-direction: column;
+    width: 393px;
+    height: 188px;
+    align-items: flex-start;
+    gap: 31px;
+    position: relative;
+}
+
+.landing-page .sub-content {
+    width: 393px;
+    align-items: flex-start;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.landing-page .SELHONO {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 7px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.landing-page .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #292f36;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.landing-page .text-wrapper-12 {
+    position: relative;
+    width: 393px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #4d4f52;
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    line-height: 33px;
+}
+
+.landing-page .icons {
+    display: flex;
+    width: 225px;
+    align-items: center;
+    gap: 54px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.landing-page .text-wrapper-13 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-weight: 400;
+    color: #292f36;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.99px;
+    line-height: 21.6px;
+    white-space: nowrap;
+}
+
+.landing-page .text-wrapper-14 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-weight: 400;
+    color: #292f36;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 1.04px;
+    line-height: 22.8px;
+    white-space: nowrap;
+}
+
+.landing-page .text-wrapper-15 {
+    position: absolute;
+    height: 33px;
+    top: 5576px;
+    left: 897px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #4d4f52;
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    line-height: 33px;
+    white-space: nowrap;
+}
+
+.landing-page .top-nav {
+    position: absolute;
+    width: 196px;
+    height: 40px;
+    top: 50px;
+    left: 1644px;
+}
+
+.landing-page .text-wrapper-16 {
+    position: absolute;
+    top: 34px;
+    left: 80px;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #181e4b;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.landing-page .rectangle-2 {
+    top: 2425px;
+    left: 931px;
+    position: absolute;
+    width: 904px;
+    height: 581px;
+    object-fit: cover;
+}
+
+.landing-page .content-2 {
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    height: 184px;
+    align-items: flex-start;
+    gap: 11px;
+    position: absolute;
+    top: 1870px;
+    left: 1123px;
+}
+
+.landing-page .text-wrapper-17 {
+    position: relative;
+    width: 326px;
+    margin-top: -1px;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #292f36;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 43.8px;
+}
+
+.landing-page .text-wrapper-18 {
+    position: relative;
+    width: 612px;
+    margin-bottom: -80px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #4d5053;
+    font-size: 28px;
+    text-align: justify;
+    letter-spacing: 0.28px;
+    line-height: 42px;
+}
+
+.landing-page .text-wrapper-19 {
+    position: absolute;
+    width: 113px;
+    height: 162px;
+    top: 1655px;
+    left: 1670px;
+    color: #c66804;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 0.9px;
+    line-height: 135px;
+    white-space: nowrap;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+}
+
+.landing-page .text-wrapper-20 {
+    position: absolute;
+    width: 136px;
+    height: 162px;
+    top: 2424px;
+    left: 121px;
+    color: #c66804;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 0.9px;
+    line-height: 135px;
+    white-space: nowrap;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+}
+
+.landing-page .sub-content-2 {
+    display: flex;
+    flex-direction: column;
+    width: 664px;
+    height: 182px;
+    align-items: flex-start;
+    gap: 9px;
+    position: absolute;
+    top: 2775px;
+    left: 133px;
+}
+
+.landing-page .text-wrapper-21 {
+    position: relative;
+    width: 399px;
+    margin-top: -1px;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #292f36;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: 43.8px;
+}
+
+.landing-page .text-wrapper-22 {
+    position: relative;
+    width: 655px;
+    height: 394px;
+    margin-bottom: -264px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #4d5053;
+    font-size: 28px;
+    text-align: justify;
+    letter-spacing: 0.28px;
+    line-height: 42px;
+}
+
+.landing-page .heading-2 {
+    display: flex;
+    flex-direction: column;
+    width: 811px;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    top: 1251px;
+    left: 554px;
+}
+
+.landing-page .text-wrapper-23 {
+    position: relative;
+    width: 811px;
+    font-family: "Jost-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: -1.44px;
+    line-height: 60px;
+}

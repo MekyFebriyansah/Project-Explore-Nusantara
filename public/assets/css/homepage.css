@@ -1,0 +1,689 @@
+.homepage {
+    width: 120rem;
+    height: 352.8125rem;
+    background: linear-gradient(180deg, #e3fdecc8 0%, #fff 52.5%);
+    margin: auto;
+}
+.lombok {
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    line-height: 125%;
+    margin-top: -30rem;
+    margin-left: 30rem;
+}
+nav {
+    width: 120rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    color: #000;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 1.5625rem */
+    justify-content: space-between;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    transition: 0.4s;
+}
+nav .judul {
+    font-family: "DM Serif Display", serif;
+    color: #181e4b;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+nav ul li a:hover {
+    color: #c76904;
+}
+/* Responsive windows */
+
+.gambar {
+    display: flex;
+    width: 100%;
+    transition: 2s;
+}
+.gambar img {
+    width: 100%;
+}
+.wrapper {
+    width: 1760px;
+    margin: auto;
+    overflow: hidden;
+}
+.wrapper .text p {
+    position: absolute;
+    bottom: 230px;
+    left: 550px;
+    color: #fffbe4;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 7.5rem */
+}
+
+#slide-1:target ~ .gambar {
+    margin-left: 0px;
+}
+#slide-2:target ~ .gambar {
+    margin-left: -100%;
+}
+#slide-3:target ~ .gambar {
+    margin-left: -200%;
+}
+#slide-4:target ~ .gambar {
+    margin-left: -300%;
+}
+#slide-5:target ~ .gambar {
+    margin-left: -400%;
+}
+#slide-6:target ~ .gambar {
+    margin-left: -500%;
+}
+#slide-7:target ~ .gambar {
+    margin-left: -600%;
+}
+.navigasi a {
+    display: inline-flex;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(241, 226, 212);
+    font-size: 0;
+    border-radius: 50%;
+    margin: 3px;
+    transition: 0.5s;
+    align-items: center;
+}
+.navigasi a:hover {
+    background-color: #666;
+}
+.navigasi {
+    width: 40rem;
+    margin-left: 40rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -50px;
+}
+/* SEARCH */
+.search {
+    width: 72rem;
+    margin: auto;
+    margin-top: 2rem;
+    height: 5.375rem;
+    flex-shrink: 0;
+    border-radius: 3.625rem;
+    background: var(--White, #ffffff);
+    box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
+}
+.search .content .location .tempat {
+    margin-top: -1.5rem;
+}
+.search .content .location img {
+    display: flex;
+    width: 1.375rem;
+    height: 1.375rem;
+    justify-content: center;
+    align-items: center;
+}
+.search .content .location .tempat p {
+    display: flex;
+    font-family: Barlow;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5px;
+}
+.search .content .location .tempat .papua p {
+    color: var(--Black, #112b3c);
+    font-family: Barlow;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.search .content input {
+    border: none;
+    display: flex;
+    width: 63.71rem;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.search .content .tombolsearch {
+    margin-top: -0.8rem;
+}
+
+.content {
+    display: flex;
+    width: 63.71rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+.nusantaraindonesia p {
+    color: #292f36;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 4.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+.keindahanalam {
+    width: 27.4375rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    color: #cda274;
+    font-family: "Jost", sans-serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: auto;
+    line-height: 150%; /* 2.34375rem */
+    letter-spacing: 0.01563rem;
+}
+.text {
+    margin: auto;
+    width: 110.1875rem;
+    color: #4d5053;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.34375rem */
+    letter-spacing: 0.01563rem;
+}
+.wisatanusantara {
+    color: #292f36;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 4.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 4.6875rem */
+    letter-spacing: 0.075rem;
+}
+.p1 {
+    display: flex;
+    margin: auto;
+    width: 70.375rem;
+    height: 15.75rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #4d5053;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.0175rem;
+}
+.rectangle {
+    display: flex;
+    width: 120rem;
+    margin: auto;
+}
+.img1 img {
+    width: 34.1875rem;
+    margin-left: 7.56rem;
+    height: 34.25rem;
+    flex-shrink: 0;
+    border-radius: 0rem 16.875rem 0rem 0rem;
+    background: cover no-repeat, #d9d9d9;
+}
+.img2 img {
+    width: 34.1875rem;
+    margin-left: 3.38rem;
+    height: 34.25rem;
+    flex-shrink: 0;
+    border-radius: 0rem 16.875rem 0rem 0rem;
+    background: cover no-repeat, #d9d9d9;
+}
+.img3 img {
+    width: 34.1875rem;
+    margin-left: 3.38rem;
+    height: 34.25rem;
+    flex-shrink: 0;
+    border-radius: 0rem 16.875rem 0rem 0rem;
+    background: cover no-repeat, #d9d9d9;
+}
+.subcontent1 {
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 130px;
+    width: 37.1875rem;
+    align-items: center;
+    gap: 16.25rem;
+}
+.subcontent1 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 1.95313rem */
+    letter-spacing: 0.03125rem;
+}
+.subcontent1 a button {
+    margin-left: -50px;
+}
+.subcontent2 {
+    display: flex;
+    position: relative;
+    left: 750px;
+    top: -40px;
+    width: 37.1875rem;
+    align-items: center;
+    gap: 16.25rem;
+}
+.subcontent2 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 1.95313rem */
+    letter-spacing: 0.03125rem;
+}
+.subcontent2 a button {
+    margin-left: -100px;
+}
+.subcontent3 {
+    display: flex;
+    position: relative;
+    left: 1320px;
+    top: -115px;
+    width: 37.1875rem;
+    align-items: center;
+    gap: 16.25rem;
+}
+.subcontent3 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 1.95313rem */
+    letter-spacing: 0.03125rem;
+}
+.subcontent3 a button {
+    margin-left: -70px;
+}
+/* rectangle1 */
+.rectangle1 {
+    display: flex;
+    width: 120rem;
+    margin: auto;
+}
+.img4 img {
+    width: 34.1875rem;
+    margin-left: 7.56rem;
+    height: 34.25rem;
+    flex-shrink: 0;
+    border-radius: 0rem 16.875rem 0rem 0rem;
+    background: cover no-repeat, #d9d9d9;
+}
+.img5 img {
+    width: 34.1875rem;
+    margin-left: 3.38rem;
+    height: 34.25rem;
+    flex-shrink: 0;
+    border-radius: 0rem 16.875rem 0rem 0rem;
+    background: cover no-repeat, #d9d9d9;
+}
+.img6 img {
+    width: 34.1875rem;
+    margin-left: 3.38rem;
+    height: 34.25rem;
+    flex-shrink: 0;
+    border-radius: 0rem 16.875rem 0rem 0rem;
+    background: cover no-repeat, #d9d9d9;
+}
+/* subconten1 */
+.subcontent4 {
+    display: flex;
+    position: relative;
+    top: 25px;
+    left: 130px;
+    width: 37.1875rem;
+    align-items: center;
+    gap: 16.25rem;
+}
+.subcontent4 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 1.95313rem */
+    letter-spacing: 0.03125rem;
+}
+.subcontent4 a button {
+    margin-left: -110px;
+}
+.subcontent5 {
+    display: flex;
+    position: relative;
+    left: 720px;
+    top: -50px;
+    width: 39.1875rem;
+    align-items: center;
+    gap: 16.25rem;
+}
+.subcontent5 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 1.95313rem */
+    letter-spacing: 0.03125rem;
+}
+.subcontent5 a button {
+    margin-left: -150px;
+}
+.subcontent6 {
+    display: flex;
+    position: relative;
+    left: 1330px;
+    top: -125px;
+    width: 37.1875rem;
+    align-items: center;
+    gap: 16.25rem;
+}
+.subcontent6 p {
+    color: #292f36;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 1.95313rem */
+    letter-spacing: 0.03125rem;
+}
+.subcontent6 a button {
+    margin-left: -35px;
+}
+/* Blog */
+#rumahKonten {
+    display: flex;
+    width: 100.625rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3.375rem;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 3.25rem;
+}
+
+.kotakKonten {
+    display: flex;
+    padding: 1.3125rem;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.gambarKonten {
+    width: 21.25rem;
+    height: 18.07919rem;
+    display: flex;
+    z-index: 1;
+}
+
+.gambarKonten img {
+    border-radius: 2.8125rem 2.8125rem 0rem 0rem;
+    width: 100%;
+    height: 100%;
+}
+
+.tempat {
+    display: flex;
+    flex-direction: column;
+    width: 7.75rem;
+    height: 2.5625rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
+    background: rgba(62, 28, 28, 0.301);
+    color: #000000;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+    margin-top: -3rem;
+    margin-left: 2rem;
+    z-index: 2;
+}
+
+.tempat1 {
+    display: flex;
+    flex-direction: column;
+    width: 7.75rem;
+    height: 2.5625rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
+    color: #ffffff;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+    margin-top: -3rem;
+    margin-left: 2rem;
+    z-index: 2;
+}
+
+.teksKonten {
+    display: flex;
+    width: 19.0625rem;
+    height: 4.375rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 1.95313rem */
+    letter-spacing: 0.03125rem;
+    flex-wrap: wrap;
+}
+
+.kontenBawah {
+    display: flex;
+    flex-direction: row;
+}
+
+.tanggal {
+    display: flex;
+    width: 13.9375rem;
+    height: 2.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+}
+
+.tombolKonten {
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-left: 4.06rem;
+}
+#dataWelcome {
+    display: flex;
+    width: 12rem;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 30.97rem;
+    margin-right: auto;
+    margin-top: 9.44rem;
+}
+
+.kotakDataWelcome {
+    display: flex;
+    flex-direction: column;
+}
+
+.nilaiKotakDataWelcome {
+    color: #cda274;
+    font-family: DM Serif Display;
+    font-size: 5.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 6.64063rem /
+    letter-spacing: 0.10625rem;
+    text-align: center;
+}
+
+.deskripsiKotakDataWelcome {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; / 2.0625rem */
+    text-align: center;
+    letter-spacing: 0.01375rem;
+    text-wrap: nowrap;
+}
+
+#dataWelcome hr {
+    width: 0.0625rem;
+    background: #cda274;
+    height: 8.125rem;
+    margin-left: 3.37rem;
+    margin-right: 3.37rem;
+}
+/* FOOTER */
+.tombolPageAtas {
+    display: flex;
+    padding: 1.625rem 3.0625rem 1.625rem 3rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.125rem;
+    background: linear-gradient(
+        180deg,
+        rgba(24, 33, 113, 0) 0%,
+        rgba(24, 70, 113, 0.71) 0.01%
+    );
+    box-shadow: 0px 0px 0px 0px rgba(192, 192, 192, 0.35);
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 1.40625rem */
+    letter-spacing: 0.0225rem;
+    margin-top: 0.13rem;
+    width: fit-content;
+}
+
+#footer {
+    width: 120rem;
+    height: 26.875rem;
+    background: url("/assets/img/footer.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 9.44rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.judulFooter {
+    color: #fff;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.90625rem */
+    margin-top: 5rem;
+}
+
+#kredit {
+    display: flex;
+    flex-direction: column;
+}
+
+.judulKredit {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.125rem */
+}
+
+.deskripsiKredit {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    margin-top: 1.12rem;
+}
+
+.logoKredit {
+    display: flex;
+    width: 14.0625rem;
+    align-items: center;
+    gap: 3.375rem;
+    margin-top: 1.94rem;
+}
+
+#copyright {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 8.63rem;
+}

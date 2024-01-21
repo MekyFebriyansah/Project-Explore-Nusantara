@@ -1,0 +1,439 @@
+#welcomePage {
+    background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
+    width: 120rem;
+    height: 120%;
+    margin: auto;
+}
+#navigasi {
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+
+#judulNavigasi {
+    color: #181e4b;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2.19rem;
+    margin-left: 5rem;
+    align-items: center;
+}
+
+#daftarMasuk {
+    display: flex;
+    margin-right: 5.01rem;
+    margin-left: auto;
+    margin-top: 2.19rem;
+    gap: 1.3rem;
+}
+
+.daftar {
+    width: 4.3125rem;
+    height: 1.375rem;
+    color: var(--1st, #212832);
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.masuk {
+    width: 6.62975rem;
+    height: 2.5rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #235e9d;
+    text-decoration: none;
+    color: var(--1st, #212832);
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.daftarMasuk a {
+    width: 6.62975rem;
+    height: 2.5rem;
+    text-decoration: none;
+}
+
+#gambarPageAtas {
+    width: 110rem;
+    height: 54.375rem;
+    border-radius: 6.25rem 0rem;
+    margin: auto;
+    background: url("/assets/img/banner.png"), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.judulGambarPageAtas {
+    width: 62.4375rem;
+    height: 8.1875rem;
+    color: #fffbe4;
+    font-family: DM Serif Display;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.75rem; /* 62.5% */
+    letter-spacing: -0.24rem;
+    margin-top: 23.13rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.12rem;
+}
+.judulGambarPageBawah {
+    width: 29.375rem;
+    color: #fffbe4;
+    font-family: DM Serif Display;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 62.5% */
+    letter-spacing: 0.01375rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tombolPageAtas {
+    display: flex;
+    padding: 1.625rem 3.0625rem 1.625rem 3rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.125rem;
+    background: linear-gradient(
+        180deg,
+        rgba(24, 33, 113, 0) 0%,
+        rgba(24, 70, 113, 0.71) 0.01%
+    );
+    box-shadow: 0px 0px 0px 0px rgba(192, 192, 192, 0.35);
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 1.40625rem */
+    letter-spacing: 0.0225rem;
+    margin-top: 0.13rem;
+    width: fit-content;
+}
+
+#tengahIyaBenar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.judulTengahIyaBenar {
+    color: #292f36;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 4.6875rem */
+    letter-spacing: 0.075rem;
+}
+
+.deskripsiTengahIyaBenar {
+    width: 50.6875rem;
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.75rem; /* 166.667% */
+    letter-spacing: -0.09rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15rem;
+}
+
+#kontenHomePage {
+    display: flex;
+    flex-direction: column;
+}
+
+.kotakKonten {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9.06rem;
+}
+
+.kotakKontenKiri {
+    display: flex;
+    width: 56.5rem;
+    height: 36.3125rem;
+}
+
+.kotakKontenKiri img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0rem 18.75rem 0rem 25rem;
+}
+
+.kotakKontenKiri1 {
+    display: flex;
+    width: 56.5rem;
+    height: 36.3125rem;
+}
+
+.kotakKontenKiri1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 18.75rem 0rem 25rem 0rem;
+}
+
+.kotakKontenKanan {
+    display: flex;
+    flex-direction: column;
+}
+
+.nomorKontenHome {
+    display: flex;
+    width: 7.0625rem;
+    height: 10.125rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #c76904;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 5.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 8.4375rem */
+    letter-spacing: 0.05625rem;
+    margin-left: 40.56rem;
+    margin-bottom: 3.25rem;
+}
+.nomorKontenHome1 {
+    display: flex;
+    width: 7.0625rem;
+    height: 10.125rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #c76904;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 5.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 8.4375rem */
+    letter-spacing: 0.05625rem;
+    margin-right: 40.56rem;
+    margin-bottom: 3.25rem;
+}
+
+.judulKonten {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 2.73438rem */
+    margin-left: 8.38rem;
+    text-align: justify;
+}
+
+.judulKonten1 {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 2.73438rem */
+    margin-right: 8.38rem;
+    text-align: justify;
+}
+
+.deskripsiKonten {
+    width: 38.25rem;
+    color: #4d5053;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.625rem */
+    letter-spacing: 0.0175rem;
+    margin-left: 8.38rem;
+}
+
+.deskripsiKonten1 {
+    width: 38.25rem;
+    color: #4d5053;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.625rem */
+    letter-spacing: 0.0175rem;
+    margin-right: 8.38rem;
+}
+
+#artikelDanTentangKami {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.judulArtikel {
+    color: #292f36;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 4.6875rem */
+    letter-spacing: 0.075rem;
+}
+
+.deskripsiArtikel {
+    width: 98.8125rem;
+    color: #4d5053;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.625rem */
+    letter-spacing: 0.0175rem;
+    margin: auto;
+}
+
+#dataWelcome {
+    display: flex;
+    width: 12rem;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 30.97rem;
+    margin-right: auto;
+    margin-top: 9.44rem;
+}
+
+.kotakDataWelcome {
+    display: flex;
+    flex-direction: column;
+}
+
+.nilaiKotakDataWelcome {
+    color: #cda274;
+    font-family: DM Serif Display;
+    font-size: 5.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 6.64063rem */
+    letter-spacing: 0.10625rem;
+    text-align: center;
+}
+
+.deskripsiKotakDataWelcome {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    text-align: center;
+    letter-spacing: 0.01375rem;
+    text-wrap: nowrap;
+}
+
+#dataWelcome hr {
+    width: 0.0625rem;
+    background: #cda274;
+    height: 8.125rem;
+    margin-left: 3.37rem;
+    margin-right: 3.37rem;
+}
+
+#footer {
+    width: 120rem;
+    height: 26.875rem;
+    background: url("/assets/img/footer.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 9.44rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.judulFooter {
+    color: #fff;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.90625rem */
+    margin-top: 5rem;
+}
+
+#kredit {
+    display: flex;
+    flex-direction: column;
+}
+
+.judulKredit {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3.125rem */
+}
+
+.deskripsiKredit {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    margin-top: 1.12rem;
+}
+
+.logoKredit {
+    display: flex;
+    width: 14.0625rem;
+    align-items: center;
+    gap: 3.375rem;
+    margin-top: 1.94rem;
+}
+
+#copyright {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 8.63rem;
+}
