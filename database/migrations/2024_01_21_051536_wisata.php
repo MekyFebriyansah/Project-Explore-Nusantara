@@ -26,6 +26,8 @@ return new class extends Migration
             $tabel->timestamps();
             $tabel->integer('lihat_wisata');
             $tabel->foreign('email')->references('email')->on('users');
+            $tabel->text('link_gmaps_wisata');
+            $tabel->string('tempat_wisata');
         });
     }
 

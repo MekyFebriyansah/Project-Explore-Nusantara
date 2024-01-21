@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('tbl_kunjungan', function (Blueprint $tabel) {
-
+            $tabel->integer('kunjungan)');
         });
     }
 
