@@ -22,7 +22,7 @@
             <div id="kotakMasuk">
                 <div class="judulMasuk">Masuk</div>
                 <div class="inputanMasuk">
-                    <form action="masuk.php" method="post">
+                    <form action="/masuk" method="GET">
                         <input type="email" placeholder="Email" name="email" required>
                         <input type="text" placeholder="Password" name="password" required>
                         <button type="submit" name="login" value="login">Login</button>

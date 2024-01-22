@@ -30,8 +30,10 @@ Route::get('/', function () {
 });
 
 Route::get('/daftar', [daftarController::class, 'pindah_daftar']);
+Route::get('/customRegistration', [daftarController::class, 'customRegistration']);
 
 Route::get('/masuk', [masukController::class, 'pindah_masuk'] );
+Route::get('/masuk', [masukController::class, 'masuk']);
 
 Route::get('/tambahBlog', [tambahBlogController::class,'pindah_tambahBlog']);
 

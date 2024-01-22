@@ -30,10 +30,10 @@
                     <hr>
                 </div>
                 <div class="inputanDaftar">
-                    <form action="daftar.php" method="post">
+                    <form action="/daftar" method="POST">
                         <input type="email" placeholder="Email" name="email" required>
-                        <input type="text" placeholder="Password" name="password" required>
-                        <input type="text" placeholder="Ulangi Password" name="konfirmasiPassword" required>
+                        <input type="password" placeholder="Password" name="password" required>
+                        <input type="password" placeholder="Ulangi Password" name="konfirmasiPassword" required>
                         <button type="submit" name="daftar">Buat Akun</button>
                         <div class="sudahMemilikiAkun">Sudah memiliki akun? <a href="{{ url('/masuk') }}">Masuk</a></div>
                     </form>
