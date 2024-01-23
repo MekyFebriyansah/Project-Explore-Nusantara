@@ -8,6 +8,6 @@ class tambahBlogController extends Controller
 {
     public function pindah_tambahBlog() 
     {
-        return view("tambahBlog");
+        return view("blog.tambahBlog");
     }
 }

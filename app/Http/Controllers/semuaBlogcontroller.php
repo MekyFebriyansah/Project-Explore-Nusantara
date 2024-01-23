@@ -8,6 +8,6 @@ class semuaBlogcontroller extends Controller
 {
     public function pindah_semuaBlog()
     {
-        return view ('semuaBlog');
+        return view ('blog.semuaBlog');
     }
 }

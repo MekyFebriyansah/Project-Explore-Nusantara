@@ -13,9 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('tbl_kunjungan', function (Blueprint $tabel) {
-            $tabel->integer('kunjungan)');
-        });
+            Schema::create('tbl_kunjungan', function (Blueprint $table) {
+                $table->bigIncrements('kunjungan');
+                $table->timestamps();
+            });
     }
 
     /**
@@ -25,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('tbl_kunjungan');
     }
 };

@@ -18,24 +18,23 @@
     margin-left: 30rem;
 }
 nav {
-    width: 120rem;
+    width: 100%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     padding: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 4.31rem;
 }
 nav ul {
     display: flex;
     list-style: none;
-    width: 40%;
     color: #000;
     text-align: center;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
     line-height: 125%; /* 1.5625rem */
-    justify-content: space-between;
+    gap: 3.5rem;
 }
 nav ul li a {
     text-decoration: none;
@@ -55,11 +54,13 @@ nav .judul {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 20rem;
+    margin-left: 5.25rem;
+    margin-right: 58.81rem;
 }
 nav ul li a:hover {
     color: #c76904;
 }
-/* Responsive windows */
 
 .gambar {
     display: flex;

@@ -8,6 +8,6 @@ class blogAndaController extends Controller
 {
     public function pindah_blogAnda()
     {
-        return view ('blogAnda');
+        return view ('blog.blogAnda');
     }
 }

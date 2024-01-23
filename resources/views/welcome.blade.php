@@ -11,6 +11,11 @@
   <body>
     <div id="welcomePage">
       @include('bagian.navigasi')
+      @if(session('suksesKeluar'))
+          <script>
+              alert("Logout atau keluar berhasil!");
+          </script>
+      @endif
       <div id="gambarPageAtas">
         <div class="judulGambarPageAtas">WONDERFUL INDONESIA</div>
         <div class="judulGambarPageBawah">Temukan surga dunia dialam indonesia</div>

@@ -13,21 +13,22 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('tbl_wisata', function (Blueprint $tabel) {
-            $tabel->id('id_wisata)');
-            $tabel->string('judul_wisata');
-            $tabel->text('deskripsi_wisata');
-            $tabel->text('gambar_wisata1');
-            $tabel->text('gambar_wisata2');
-            $tabel->text('gambar_wisata3');
-            $tabel->text('gambar_wisata4');
-            $tabel->text('gambar_wisata5');
-            $tabel->text('gambar_wisata6');
-            $tabel->timestamps();
-            $tabel->integer('lihat_wisata');
-            $tabel->foreign('email')->references('email')->on('users');
-            $tabel->text('link_gmaps_wisata');
-            $tabel->string('tempat_wisata');
+        Schema::create('tbl_wisata', function (Blueprint $table) {
+            $table->id('id_wisata');
+            $table->string('judul_wisata');
+            $table->text('deskripsi_wisata');
+            $table->text('gambar_wisata1');
+            $table->text('gambar_wisata2');
+            $table->text('gambar_wisata3');
+            $table->text('gambar_wisata4');
+            $table->text('gambar_wisata5');
+            $table->text('gambar_wisata6');
+            $table->timestamps();
+            $table->integer('lihat_wisata');
+            $table->text('link_gmaps_wisata');
+            $table->string('tempat_wisata');
+            $table->string('email');
+            $table->foreign('email')->references('email')->on('users');
         });
     }
 
@@ -38,6 +39,6 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('tbl_wisata');
     }
 };

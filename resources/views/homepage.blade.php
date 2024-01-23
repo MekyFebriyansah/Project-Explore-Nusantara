@@ -8,26 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@600&display=swap" rel="stylesheet">
-    <!-- Dm -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:ital,wght@1,600&display=swap" rel="stylesheet">
     <title>Home Page</title>
 </head>
 <body>
+        @if (session('berhasilMasuk'))
+            <script>
+                alert("Login atau masuk berhasil!");
+            </script>
+        @endif
 <div class="homepage">
-    <nav>
-        <div class="judul">
-            <h3>Explore Nusantara</h3>
-        </div>
-        <ul>
-            <li><a href="">Beranda</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Wisata</a></li>
-            <li><a href="">Profil</a></li>
-            <li><a href="/">Keluar</a></li>
-        </ul>
-    </nav>
+    @include('bagian.navigasiAuth')
     <div class="wrapper">
         <div class="slides">
             <span id="slide-1"></span>
@@ -58,30 +51,7 @@
             <a href="#slide-7">7</a>
         </div>
     </div>
-    <div class="search">
-        <div class="content">
-            <div class="location">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
-                        <path d="M10.9996 12.3108C12.5792 12.3108 13.8596 11.0304 13.8596 9.45084C13.8596 7.8713 12.5792 6.59084 10.9996 6.59084C9.42011 6.59084 8.13965 7.8713 8.13965 9.45084C8.13965 11.0304 9.42011 12.3108 10.9996 12.3108Z" fill="white" stroke="#3D6299" stroke-width="1.5"/>
-                        <path d="M3.31823 7.7825C5.12406 -0.155836 16.8849 -0.14667 18.6816 7.79166C19.7357 12.4483 16.8391 16.39 14.2999 18.8283C12.4574 20.6067 9.5424 20.6067 7.69073 18.8283C5.16073 16.39 2.26406 12.4392 3.31823 7.7825Z" fill="white" stroke="#3D6299" stroke-width="1.5"/>
-                      </svg>
-                <div class="tempat">
-                    <p>Lokasi</p>
-                    <div class="papua"><p>Papua, Papua barat</p></div>
-                </div>
-            </div>
-            <input type="text">
-            <div class="tombolsearch">
-                <a><svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-                    <circle cx="24.6797" cy="24.2" r="24" fill="#3D6299"/>
-                    <path d="M12.1797 21.95C6.52969 21.95 1.92969 17.35 1.92969 11.7C1.92969 6.04995 6.52969 1.44995 12.1797 1.44995C17.8297 1.44995 22.4297 6.04995 22.4297 11.7C22.4297 17.35 17.8297 21.95 12.1797 21.95ZM12.1797 2.94995C7.34969 2.94995 3.42969 6.87995 3.42969 11.7C3.42969 16.52 7.34969 20.45 12.1797 20.45C17.0097 20.45 20.9297 16.52 20.9297 11.7C20.9297 6.87995 17.0097 2.94995 12.1797 2.94995Z" fill="white"/>
-                    <path d="M22.6801 22.95C22.4901 22.95 22.3001 22.88 22.1501 22.73L20.1501 20.73C19.8601 20.44 19.8601 19.96 20.1501 19.67C20.4401 19.38 20.9201 19.38 21.2101 19.67L23.2101 21.67C23.5001 21.96 23.5001 22.44 23.2101 22.73C23.0601 22.88 22.8701 22.95 22.6801 22.95Z" fill="white"/>
-                    </svg>  
-                </a>
-            </div>
-        </div>
-    </div>
-    <br><br><br><br>
+    <br><br>
     <div class="nusantaraindonesia"><p>Nusantara Indonesia</p></div>
     <div class="keindahanalam"><p>keindahan alam dan kekayaan budaya</p></div><br><br>
     <div class="text">

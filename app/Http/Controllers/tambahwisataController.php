@@ -8,6 +8,6 @@ class tambahwisataController extends Controller
 {
     public function pindah_tambahwisata()
     {
-        return view ('tambahwisata');
+        return view ('wisata.tambahwisata');
     }
 }

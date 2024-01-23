@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\daftarController;
+use App\Http\Controllers\keluarController;
 use App\Http\Controllers\masukController;
 use App\Http\Controllers\tambahBlogController;
 use App\Http\Controllers\detailBlogController;
@@ -30,10 +31,13 @@ Route::get('/', function () {
 });
 
 Route::get('/daftar', [daftarController::class, 'pindah_daftar']);
-Route::get('/customRegistration', [daftarController::class, 'customRegistration']);
+Route::post('/daftar', [daftarController::class, 'daftarAkun']);
 
-Route::get('/masuk', [masukController::class, 'pindah_masuk'] );
-Route::get('/masuk', [masukController::class, 'masuk']);
+
+
+Route::get('/masuk', [masukController::class, 'pindah_masuk']);
+Route::post('/masuk', [masukController::class, 'masuk']);
+
 
 Route::get('/tambahBlog', [tambahBlogController::class,'pindah_tambahBlog']);
 
@@ -43,7 +47,7 @@ Route::get('/blogAnda', [blogAndaController::class,'pindah_blogAnda']);
 
 Route::get('semuaBlog', [semuaBlogController::class, 'pindah_semuaBlog']);
 
-Route::get('homepage', [homePageController::class,'pindah_homepage']);
+Route::get('/homepage', [homePageController::class,'pindah_homepage']);
 
 Route::get('semuawisata', [semuawisataController::class,'pindah_semuawisata']);
 
@@ -54,3 +58,5 @@ Route::get('tambahwisata', [tambahwisataController::class,'pindah_tambahwisata']
 Route::get('detailwisata', [detailwisataController::class,'pindah_detailwisata']);
 
 Route::get('profil', [profilController::class,'pindah_profil']);
+
+Route::get('/keluar', [keluarController::class, 'keluar']);

@@ -13,22 +13,23 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('tbl_blog', function (Blueprint $tabel) {
-            $tabel->id('id_blog)');
-            $tabel->string('judul_blog');
-            $tabel->text('deskripsi_blog');
-            $tabel->text('gambar_blog1');
-            $tabel->text('gambar_blog2');
-            $tabel->text('gambar_blog3');
-            $tabel->text('gambar_blog4');
-            $tabel->text('gambar_blog5');
-            $tabel->text('gambar_blog6');
-            $tabel->timestamps();
-            $tabel->integer('lihat_blog');
-            $tabel->foreign('email')->references('email')->on('users');
-            $tabel->text('link_gmaps_blog');
-            $tabel->string('tempat_blog');
-            $tabel->text('tentang_blog');
+        Schema::create('tbl_blog', function (Blueprint $table) {
+            $table->id('id_blog');
+            $table->string('judul_blog');
+            $table->text('deskripsi_blog');
+            $table->text('gambar_blog1');
+            $table->text('gambar_blog2');
+            $table->text('gambar_blog3');
+            $table->text('gambar_blog4');
+            $table->text('gambar_blog5');
+            $table->text('gambar_blog6');
+            $table->timestamps();
+            $table->integer('lihat_blog');
+            $table->string('email');
+            $table->foreign('email')->references('email')->on('users');
+            $table->text('link_gmaps_blog');
+            $table->string('tempat_blog');
+            $table->text('tentang_blog');
         });
     }
 
@@ -39,6 +40,6 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('tbl_blog');
     }
 };

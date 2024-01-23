@@ -13,12 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('sispar', function (Blueprint $table) {
-            $table->id();
-            $table->integer('nim');
+        Schema::create('profil', function (Blueprint $table) {
+            $table->string('email');
+            $table->foreign('email')->references('email')->on('users');
             $table->string('nama');
             $table->string('alamat');
-            $table->timestamps();
+            $table->string('tempat_lahir');
+            $table->date('tanggal_lahir');
+            $table->string('nomor_hp');
         });
     }
 
@@ -29,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sispar');
+        Schema::dropIfExists('profil');
     }
 };
