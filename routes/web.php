@@ -33,11 +33,8 @@ Route::get('/', function () {
 Route::get('/daftar', [daftarController::class, 'pindah_daftar']);
 Route::post('/daftar', [daftarController::class, 'daftarAkun']);
 
-
-
 Route::get('/masuk', [masukController::class, 'pindah_masuk']);
 Route::post('/masuk', [masukController::class, 'masuk']);
-
 
 Route::get('/tambahBlog', [tambahBlogController::class,'pindah_tambahBlog']);
 
@@ -45,18 +42,19 @@ Route::get('/detailBlog', [detailBlogController::class,'pindah_detailBlog']);
 
 Route::get('/blogAnda', [blogAndaController::class,'pindah_blogAnda']);
 
-Route::get('semuaBlog', [semuaBlogController::class, 'pindah_semuaBlog']);
+Route::get('/semuaBlog', [semuaBlogController::class, 'pindah_semuaBlog']);
 
 Route::get('/homepage', [homePageController::class,'pindah_homepage']);
 
-Route::get('semuawisata', [semuawisataController::class,'pindah_semuawisata']);
+Route::get('/semuaWisata', [semuawisataController::class,'pindah_semuawisata']);
 
-Route::get('wisataanda', [wisataandaController::class,'pindah_wisataanda']);
+Route::get('/wisataAnda', [wisataandaController::class,'pindah_wisataanda']);
 
-Route::get('tambahwisata', [tambahwisataController::class,'pindah_tambahwisata']);
+Route::get('/tambahWisata', [tambahwisataController::class,'pindah_tambahwisata']);
 
-Route::get('detailwisata', [detailwisataController::class,'pindah_detailwisata']);
+Route::get('/detailWisata', [detailwisataController::class,'pindah_detailwisata']);
 
 Route::get('profil', [profilController::class,'pindah_profil']);
+Route::post('/update-profil', [profilController::class, 'updateProfil']);
 
 Route::get('/keluar', [keluarController::class, 'keluar']);

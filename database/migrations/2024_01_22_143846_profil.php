@@ -16,19 +16,24 @@ return new class extends Migration
         Schema::create('profil', function (Blueprint $table) {
             $table->string('email');
             $table->foreign('email')->references('email')->on('users');
-            $table->string('nama');
-            $table->string('alamat');
-            $table->string('tempat_lahir');
-            $table->date('tanggal_lahir');
-            $table->string('nomor_hp');
+            $table->string('nama')->nullable();
+            $table->string('alamat')->nullable();
+            $table->string('tempat_lahir')->nullable();
+            $table->date('tanggal_lahir')->nullable();
+            $table->string('nomor_hp')->nullable();
+            $table->string('foto_profil')->nullable();
+            $table->timestamps();
         });
+        
+        
+        
     }
-
     /**
      * Reverse the migrations.
      *
      * @return void
      */
+
     public function down()
     {
         Schema::dropIfExists('profil');

@@ -280,3 +280,8 @@
     margin-top: 0.13rem;
     width: fit-content;
 }
+
+.kontenInfo {
+    display: flex;
+    flex-direction: row;
+}
