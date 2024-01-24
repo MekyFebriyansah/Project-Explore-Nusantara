@@ -52,7 +52,7 @@ Route::get('/wisataAnda', [wisataandaController::class,'pindah_wisataanda']);
 
 Route::get('/tambahWisata', [tambahwisataController::class,'pindah_tambahwisata']);
 
-Route::get('/detailWisata', [detailwisataController::class,'pindah_detailwisata']);
+Route::get('/detailwisata', [detailwisataController::class,'pindah_detailwisata']);
 
 Route::get('profil', [profilController::class,'pindah_profil']);
 Route::post('/update-profil', [profilController::class, 'updateProfil']);

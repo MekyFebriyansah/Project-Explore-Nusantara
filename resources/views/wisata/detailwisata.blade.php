@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('assets/css/detailWisata.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/navigasi.css') }}" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
@@ -13,38 +14,7 @@
 </head>
 <body>
     <div id="detailBlog">
-        <div id="header">
-            <div id="judulheader">
-                ExploreNusantara
-            </div>
-            <div id="navigasiBlog">
-            <div class="berandaBlog">
-                <a href="">
-                    Beranda
-                </a>
-            </div>    
-            <div class="blogBlog">
-                <a href="{{ url('/blogAnda') }}">
-                    Blog
-                </a>
-            </div>
-            <div class="wisataBlog">
-                <a href="">
-                    Wisata
-                </a>
-            </div>
-            <div class="profilBlog">
-                <a href="">
-                    Profil
-                </a>
-            </div>
-            <div class="keluarBlog">
-                <a href="">
-                    Keluar
-                </a>
-            </div>
-            </div>
-        </div>
+        @include('bagian.navigasiAuth')
         <div class="kotakDatadetailBlog">
             <div class="nilaiKotakDatadetailBlog">15</div>
             <div class="deskripsiKotakDatadetailBlog">bulan yang</div>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('assets/css/semuawisata.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/navigasi.css') }}" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
@@ -13,43 +14,7 @@
 </head>
 <body>
     <div id="semuawisata">
-        <div id="header">
-            <div id="judulheader">
-                ExploreNusantara
-            </div>
-            <div id="navigasiBlog">
-            <div class="berandaBlog">
-                <a href="">
-                    Beranda
-                </a>
-            </div>    
-            <div class="blogBlog">
-                <a href="">
-                    Blog
-                </a>
-            </div>
-            <div class="wisataBlog">
-                <a href="">
-                    Wisata
-                </a>
-            </div>
-            <div class="profilBlog">
-                <a href="">
-                    Profil
-                </a>
-            </div>
-            <div class="keluarBlog">
-                <a href="/">
-                    Keluar
-                </a>
-            </div>
-            <div class="keluarBlog">
-                <a href="wisataanda">
-                    Wisata Anda
-                </a>
-            </div>
-            </div>
-        </div>
+       @include('bagian.navigasiAuth')
         <div class="tekssemuawisata">
             Indonesia, negeri dengan lebih dari 17.000 pulau, memikat jiwa setiap pelancong dengan pesona alamnya yang memukau. Dari ujung Sabang hingga Merauke, setiap destinasi menawarkan keindahan yang tak terlukiskan. Selamat datang di Indonesia, negeri yang tak hanya menawarkan destinasi  wisata, tetapi juga perjalanan ke dalam kekayaan alam, budaya, dan kehangatan hati yang menjadikan setiap kunjungan sebagai petualangan sejati.
         </div>

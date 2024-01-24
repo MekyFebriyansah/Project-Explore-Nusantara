@@ -3,7 +3,6 @@
     height: 120%;
     background: linear-gradient(180deg, #fdfae3 0%, #fff 52.5%);
     margin: auto;
-
 }
 .lombok {
     color: #ffffff;
@@ -271,6 +270,7 @@
     font-weight: 400;
     line-height: 125%; /* 1.95313rem */
     letter-spacing: 0.03125rem;
+    margin-top: 2rem;
 }
 .subcontent2 a button {
     margin-left: -100px;
@@ -292,6 +292,7 @@
     font-weight: 400;
     line-height: 125%; /* 1.95313rem */
     letter-spacing: 0.03125rem;
+    margin-top: 2rem;
 }
 .subcontent3 a button {
     margin-left: -70px;
@@ -365,6 +366,7 @@
     font-weight: 400;
     line-height: 125%; /* 1.95313rem */
     letter-spacing: 0.03125rem;
+    margin-top: 2rem;
 }
 .subcontent5 a button {
     margin-left: -150px;
@@ -386,11 +388,32 @@
     font-weight: 400;
     line-height: 125%; /* 1.95313rem */
     letter-spacing: 0.03125rem;
+    margin-top: 2rem;
 }
 .subcontent6 a button {
     margin-left: -35px;
 }
 /* Blog */
+.blog1 p {
+    color: #292f36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 4.6875rem */
+    letter-spacing: 0.075rem;
+}
+.blog1 {
+    color: #292f36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 4.6875rem */
+    letter-spacing: 0.075rem;
+}
 #rumahKonten {
     display: flex;
     width: 100.625rem;
