@@ -15,6 +15,9 @@ class wisata extends Model
      * @var array<int, string,>
      */
 
+     protected $table = 'tbl_wisata';
+     protected $primaryKey = 'id_wisata';
+
     protected $fillable = [
         'id_wisata',
         'judul_wisata',
@@ -31,4 +34,8 @@ class wisata extends Model
         'link_gmaps_wisata',
         'tempat_wisata',
     ];
+    public function profil()
+    {
+        return $this->belongsTo(Profil::class, 'email', 'email');
+    }
 }

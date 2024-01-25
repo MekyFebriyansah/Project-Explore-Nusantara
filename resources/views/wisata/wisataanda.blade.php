@@ -18,50 +18,33 @@
         <div class="tulisanBlogAnda">
             Wisata Anda
         </div>
+    @foreach ($wisatas as $wisata)
         <div class="gambarBlogAnda">
-            <div class="nomorBlogAnda">02</div>
+            <div class="nomorBlogAnda">
+                {{ $loop-> index + 1}}
+            </div>
                 <img src="{{ asset('assets/img/wisataanda.png') }}" alt="" class="fotoBlog" style="border-radius: 0rem 0rem 25rem 0rem;">
             <div class="teksBlogAnda">
                 <div class="sedangproses">
                     Telah Di Posting
                 </div>
                 <div class="isiteksBlogAnda">
-                    Naga Purba yang Mengagumkan.
+                    {{ $wisata->judul_wisata }}
                 </div>
                 <div class="isiteksBlogAnda1">
-                    Pulau Komodo, menjadi bagian dari Taman Nasional Komodo, adalah sebuah permata yang menyimpan keunikan dan keindahan alam yang memukau. Dengan kehadiran naga purba, serta lanskap yang mempesona, pulau ini menjadi destinasi yang luar biasa. Pulau Komodo adalah perjalanan ke alam yang masih murni dan keajaiban prasejarah. Di sini, petualangan bukan hanya tentang menemui naga purba, tetapi juga merasakan keindahan yang alami, menantang, dan mendalam. Selamat datang di Pulau Komodo, tempat di mana eksotisme liar bertemu keajaiban alam. Pulau Komodo dikenal sebagai rumah bagi Komodo, kadal raksasa yang merupakan spesies terbesar di dunia. Berinteraksi langsung dengan naga purba ini menjadi pengalaman tak terlupakan, sementara pulau-pulau sekitarnya menawarkan pemandangan alam yang memesona.
-                    <button class="tombolSelengkapnya">
+                    {{ $wisata->deskripsi_wisata }}
+                </div>
+                <a href="">
+                    <div class="tombolSelengkapnya">
                         Selengkapnya
                         <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 8.43517L14.7232 8.29832M9.61818 1.91113L16.1412 8.43412L9.48677 15.0885" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
                             </svg>   
-                    </button>
+                    </div>
+                </a>
                 </div>
             </div>
-        </div>
-        <br><br><br><br><br><br> 
-        <div class="gambarBlogAnda">
-            <div class="nomorBlogAnda">01</div>
-            <img src="{{ asset('assets/img/wisataannda2.png') }}" alt="" class="fotoBlog" style="border-radius: 0rem 0rem 25rem 0rem;">
-            <div class="teksBlogAnda">
-                <div class="sedangproses">
-                    Telah Di Posting
-                </div>
-                <div class="isiteksBlogAnda">
-                    Kehangatan Pasir Putih dan Pesona yang
-                    <br>Memikat.
-                </div>
-                <div class="isiteksBlogAnda1">
-                    Pulau Laut Laguna, sebuah surga tersembunyi di perairan Indonesia, memikat hati dengan pesona keindahan alamnya yang luar biasa. Terletak di antara pulau-pulau yang eksotis, pulau ini menghadirkan pengalaman wisata yang menggairahkan. antai pasir putih yang melingkupi Pulau Laut Laguna adalah undangan untuk bersantai dan menikmati kehangatan sinar matahari. Dengan air laut yang jernih dan langit yang biru, setiap sudut pulau menjadi pelukan bagi para pelancong. Selamat datang di Pulau Laut Laguna, di mana keindahan alam, air laut yang mempesona, dan keanekaragaman pulau-pulau di sekitarnya menciptakan pengalaman liburan yang sempurna di tengah keindahan alam Indonesia yang memesona.
-                    <button class="tombolSelengkapnya">
-                        Selengkapnya
-                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 8.43517L14.7232 8.29832M9.61818 1.91113L16.1412 8.43412L9.48677 15.0885" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
-                            </svg>   
-                    </button>
-                </div>
-            </div>
-        </div>
+        @endforeach
         <div class="tambahBlogAnda">
             <a href="{{ url('/tambahwisata') }}">
             Tambah Wisata

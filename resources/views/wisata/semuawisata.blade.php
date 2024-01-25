@@ -56,186 +56,25 @@
             </div>
         </div>
         <div id="rumahKonten">
+            @foreach ($wisatas as $wisata )
                 <div class="kotakKonten">
                     <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/pulau.jpeg') }}" alt="">
+                        <img src="{{ $wisata->gambar_wisata1 }}" alt="Wisata Image">
                     </div>
                     <div class="tempat">
-                        Papua
+                        {{ $wisata->tempat_wisata }}
                     </div>
                     <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
+                        <div class="tombolKonten"><a href="{{ url('/detailWisata', ['id' => $wisata->id_wisata]) }}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
                             <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
                             <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
                             <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
+                        </svg></a>
+                        </div>
                     </div>
                 </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/pantai.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/jurang.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/photo4wisata.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/photo5wisata.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/photo6wisata.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/pulau.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/pantai.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/jurang.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/photo4wisata.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/photo5wisata.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
-                <div class="kotakKonten">
-                    <div class="gambarKonten">
-                        <img src="{{ asset('assets/img/photo6wisata.jpeg') }}" alt="">
-                    </div>
-                    <div class="tempat">
-                        Papua
-                    </div>
-                    <div class="kontenBawah">
-                        <div class="tombolKonten"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
-                            <circle cx="26" cy="26.267" r="26" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" fill="#D8A876"/>
-                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a></div>
-                    </div>
-                </div>
+            @endforeach
         </div>
         @include('bagian.footer')
     </div>
