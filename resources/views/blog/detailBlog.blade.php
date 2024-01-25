@@ -17,25 +17,29 @@
         @include('bagian.navigasiAuth')
         <div class="kotakDatadetailBlog">
             <div class="kontenInfo">
-                <div class="nilaiKotakDatadetailBlog">15</div>
-                <div class="deskripsiKotakDatadetailBlog">bulan yang</div>
-                <div class="deskripsiKotakDatadetailBlog">lalu</div>
+                <div class="nilaiKotakDatadetailBlog">{{ $blog->created_at->diffForHumans() }}</div>
+                <div class="nilaiKotakDatadetailBlog">
+                    {{ $blog->lihat_blog }}
+                </div>
             </div>
         <div class="kotakdetailBlog">
-            <div class="tanggaldetailBlog">26 Desember 2022</div>
-            <div class="juduldetailBlog">Keindahan Magis Tari Kecak: Suara, Gerakan, dan Kekuatan Bali yang Memukau
+            <div class="tanggaldetailBlog">{{ $blog->created_at->format('d F Y') }}</div>
+            <div class="tanggaldetailBlog">  
+            @if ($blog->profil)
+                {{ $blog->profil->nama }}
+            @else
+                Penulis tidak ditemukan
+            @endif
+            </div>
+            <div class="juduldetailBlog">{{ $blog->judul_blog }}
                 <div class="teksjuduldetailBlog">
-                    Di atas latar senja pulau Bali yang memesona, Tari Kecak menjadi bagian tak terpisahkan dari pesona budaya yang kaya. Dengan gerakan-gerakan yang mengagumkan dan harmoni suara yang kuat, pertunjukan ini memberikan pengalaman yang luar biasa bagi setiap penonton yang hadir.
-                    <br><br>
-                    Tarian ini bukan sekadar pertunjukan, tetapi juga cerita epik yang hidup dari zaman kuno, khususnya cerita Ramayana. Dengan menggunakan nyanyian dan gerakan tangan para penari, Kecak menjadi simbol kekuatan, perjuangan, dan kemenangan dari cerita klasik ini. Satu hal yang menakjubkan dari Tari Kecak adalah suara yang tercipta dari puluhan bahkan ratusan penari yang bersama-sama menghasilkan harmoni vokal yang menggetarkan hati. Tanpa menggunakan alat musik, suara yang dihasilkan menciptakan aura magis yang memenuhi ruang pertunjukan.
-                    <br><br>
-                    Kehadiran Tari Kecak adalah bentuk nyata dari semangat kebersamaan dan gotong royong masyarakat Bali. Melalui tarian ini, mereka menyatukan kekuatan dan semangat untuk melestarikan warisan budaya yang begitu berharga. Tari Kecak bukan hanya sekadar pertunjukan tari, tetapi juga sebuah perayaan dari warisan budaya Bali yang mempesona. Dengan pesona yang memikat dan pesan moral yang mendalam, Tari Kecak mempersembahkan keindahan dan kekuatan budaya Bali yang tak ternilai.
+                    {{ $blog->deskripsi_blog }}
                 </div>
             </div>
         </div>
         </div>
         <div class="gambardetailBlog">
-            <img src="{{ asset('assets/img/detailBlog.png') }}" alt="">
+            <img src="{{ asset($blog->gambar_blog1) }}" alt="">
         </div>
         @include('bagian.footer')
     </div>

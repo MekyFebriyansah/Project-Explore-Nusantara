@@ -331,6 +331,12 @@
     line-height: 125%; /* 1.40625rem */
     letter-spacing: 0.0225rem;
 }
+
+.tambahkanBlog a {
+    text-decoration: none;
+    color: #fff;
+}
+
 #footer {
     width: 120rem;
     height: 26.875rem;

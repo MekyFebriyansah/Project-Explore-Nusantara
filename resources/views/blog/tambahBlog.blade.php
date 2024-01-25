@@ -63,11 +63,13 @@
                 <input type="text" placeholder="Tuliskan Detailnya Disini">
             </div>
         </div>
-        <div class="tambahkanBlog">
+        <div class="tambahkanBlog" style="text-decoration: none; color: #fff">
+            <a href="">
             Tambahkan
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
   <path d="M1 8.43517L14.7232 8.29832M9.61818 1.91113L16.1412 8.43412L9.48677 15.0885" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
 </svg>
+</a>
         </div>
         @include('bagian.footer')
     </div>

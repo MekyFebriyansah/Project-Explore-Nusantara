@@ -33,4 +33,8 @@ class blog extends Model
         'tempat_blog',
         'tentang_blog',
     ];
+    public function profil()
+    {
+        return $this->belongsTo(Profil::class, 'email', 'email');
+    }
 }

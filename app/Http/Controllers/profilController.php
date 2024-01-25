@@ -37,14 +37,11 @@ class profilController extends Controller
 
     if ($request->hasFile('gambar_profil')) {
         if ($profil->foto_profil) {
-            if (file_exists(public_path('assets/img/' . $profil->foto_profil))) {
-                unlink(public_path('assets/img/' . $profil->foto_profil));
-            }
+            Storage::delete($profil->foto_profil);
         }
 
         $image = $request->file('gambar_profil');
-        $imageName = time() . '.' . $image->getClientOriginalExtension();
-        $image->move(public_path('assets/img/'), $imageName);
+        $imageName = $image->store('public/img');
 
         $profil->foto_profil = $imageName;
     }
@@ -53,5 +50,4 @@ class profilController extends Controller
 
     return redirect()->back()->with('success', 'Profil berhasil diperbarui.');
 }
-
 }

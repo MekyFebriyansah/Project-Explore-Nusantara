@@ -23,10 +23,10 @@
                 <label for="upload-input">
                     <img id="profile-image" src="{{ asset('assets/img/' . ($profil->gambar_profil ? $profil->gambar_profil : 'fotoProfil.png')) }}" alt="" style="width: 46.125rem;height: 38.625rem;border-radius: 0rem 0rem 25rem 0rem; margin-left: 5rem">
                 </label>
-                <input type="file" id="upload-input" style="display: none" accept="image/*">
+                <input type="file" name="gambar_profil" id="upload-input" style="display: none" accept="image/*" title="Choose a profile picture" placeholder="Tidak ada gambar yang dipilih">
             </div>
             <div class="formProfil">
-                <form action="{{ url('/update-profil') }}" method="POST" enctype="multipart/form-data">
+                <form action="{{ url('/update-profil') }}" method="POST" enctype="multipart/form-data" id="profil-form">
                     @csrf
                     <input type="text" name="nama" placeholder="Name" value="{{ $profil->nama ?? '' }}">
                     <input type="text" name="alamat" placeholder="Alamat" value="{{ $profil->alamat ?? '' }}">
@@ -41,44 +41,33 @@
         </div>
         @include('bagian.footer')
     </div>
-<script>
-    const profileImage = document.getElementById('profile-image');
-    const uploadInput = document.getElementById('upload-input');
+    <script>
+        const profileImage = document.getElementById('profile-image');
+const uploadInput = document.getElementById('upload-input');
+const form = document.getElementById('profil-form');
 
-    profileImage.addEventListener('click', () => {
-        uploadInput.click();
-    });
+profileImage.addEventListener('click', () => {
+    uploadInput.click();
+});
 
-    uploadInput.addEventListener('change', () => {
-        const file = uploadInput.files[0];
-        if (file) {
-            const reader = new FileReader();
-            reader.onload = (e) => {
-                profileImage.src = e.target.result;
-            };
-            reader.readAsDataURL(file);
+uploadInput.addEventListener('change', () => {
+    const file = uploadInput.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            profileImage.src = e.target.result;
 
-            const newUploadInput = document.createElement('input');
-            newUploadInput.type = 'file';
-            newUploadInput.id = 'upload-input';
-            newUploadInput.accept = 'image/*';
-            newUploadInput.style.display = 'none';
+            if (form) {
+                form.submit();
+            } else {
+                console.error('Form tidak ditemukan.');
+            }
+        };
+        reader.readAsDataURL(file);
+    }
+});
 
-            uploadInput.parentNode.replaceChild(newUploadInput, uploadInput);
-
-            newUploadInput.addEventListener('change', () => {
-                const newFile = newUploadInput.files[0];
-                if (newFile) {
-                    const newReader = new FileReader();
-                    newReader.onload = (e) => {
-                        profileImage.src = e.target.result;
-                    };
-                    newReader.readAsDataURL(newFile);
-                }
-            });
-        }
-    });
-</script>
+    </script>
 
 </body>
 </html>
