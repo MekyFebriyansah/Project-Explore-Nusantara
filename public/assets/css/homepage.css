@@ -668,3 +668,49 @@
     align-items: center;
     margin-top: 8.63rem;
 }
+
+.pencarian {
+    width: 72rem;
+    height: 5.375rem;
+    display: flex;
+}
+
+.isipencarian {
+    border-radius: 3.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--White, #fff);
+    margin-left: 20.87rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 22.88rem;
+
+    /* D1 */
+    box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
+}
+
+.inputpencarian {
+    display: flex;
+    width: 63.71rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.63rem;
+    margin-bottom: 2rem;
+    line-height: 150%;
+    font-family: Jost;
+    font-style: normal;
+}
+
+.inputpencarian input {
+    line-height: 100%;
+    width: 63.71rem;
+    border: none;
+    font-size: 1.75rem;
+}
+
+.lokasipencarian {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

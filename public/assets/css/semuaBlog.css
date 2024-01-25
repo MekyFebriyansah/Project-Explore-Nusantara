@@ -402,3 +402,76 @@
     fill: none;
     background: none;
 }
+
+.searchsemuaBlog {
+    width: 31.25rem;
+    height: 5.375rem;
+    border-radius: 3.625rem;
+    background: #fff;
+    /* D1 */
+    box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
+    margin-left: 40.38rem;
+    display: flex;
+    flex-direction: row;
+}
+.isiPencarianKiri {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisantanggal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.tulisanTanggalAtas {
+    color: var(--Grey-1, #808080);
+    font-family: Barlow;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tulisanTanggalBawah {
+    color: var(--Black, #112b3c);
+    font-family: Barlow;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.gambartanggal {
+    display: flex;
+    width: 1.375rem;
+    height: 1.375rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.logoGambarPencarianKiri {
+    display: flex;
+    margin-left: 8rem;
+    margin-right: 1rem;
+}
+
+#tombolPencarian {
+    fill: #3d6299;
+    display: flex;
+    margin-left: 1.76rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#tombolPencarian button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    fill: none;
+    background: none;
+}

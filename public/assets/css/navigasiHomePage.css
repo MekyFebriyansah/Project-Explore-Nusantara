@@ -33,13 +33,12 @@ nav .judulNavigasi {
     font-family: "DM Serif Display", serif;
     color: #181e4b;
     font-size: 2.5rem;
-    text-wrap:  nowrap;
+    text-wrap: nowrap;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-right: 59.31rem;
     display: flex;
-
 }
 nav ul li a:hover {
     color: #c76904;
