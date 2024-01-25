@@ -13,5 +13,4 @@ class semuaBlogController extends Controller
 
         return view('blog.semuaBlog', ['blogs' => $blogs]);
     }
-    
 }
