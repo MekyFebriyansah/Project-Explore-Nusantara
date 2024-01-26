@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class blog extends Model
+class Blog extends Model
 {
     use HasFactory;
 
@@ -26,15 +26,14 @@ class blog extends Model
         'gambar_blog4',
         'gambar_blog5',
         'gambar_blog6',
-        '',
         'lihat_blog',
         'email',
         'link_gmaps_blog',
         'tempat_blog',
         'tentang_blog',
     ];
-    public function profil()
+    public function user()
     {
-        return $this->belongsTo(Profil::class, 'email', 'email');
+        return $this->belongsTo(User::class, 'email', 'email');
     }
 }

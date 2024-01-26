@@ -29,6 +29,8 @@ Route::group(['middleware' => 'web'], function () {
     Route::post('/masuk', [masukController::class, 'masuk']);
 
     Route::get('/tambahBlog', [tambahBlogController::class, 'pindah_tambahBlog']);
+    Route::get('/listBlog', [tambahBlogController::class, 'listBlog']);
+    Route::post('/menambahBlog', [tambahBlogController::class, 'tambahBlog']);
 
     Route::get('/detailBlog/{id}', [detailBlogController::class, 'pindah_detailBlog']);
 
@@ -39,8 +41,8 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/homepage', [homePageController::class, 'pindah_homepage']);
 
     Route::get('/semuaWisata', [semuawisataController::class, 'pindah_semuawisata']);
-
     Route::get('/wisataAnda', [wisataandaController::class, 'pindah_wisataanda']);
+    Route::post('/menambahWisata', [tambahwisataController::class, 'tambahWisata']);
 
     Route::get('/tambahWisata', [tambahwisataController::class, 'pindah_tambahwisata']);
 

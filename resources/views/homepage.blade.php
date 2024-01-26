@@ -19,7 +19,7 @@
             </script>
         @endif
 <div id="homepage">
-    @include('bagian.navigasiAuth')
+    @include('bagian.navigasiHome')
     <div class="wrapper">
         <div class="slides">
             <span id="slide-1"></span>

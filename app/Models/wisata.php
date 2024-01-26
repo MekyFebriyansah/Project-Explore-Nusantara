@@ -28,14 +28,13 @@ class wisata extends Model
         'gambar_wisata4',
         'gambar_wisata5',
         'gambar_wisata6',
-        '',
         'lihat_wisata',
         'email',
         'link_gmaps_wisata',
         'tempat_wisata',
     ];
-    public function profil()
+    public function user()
     {
-        return $this->belongsTo(Profil::class, 'email', 'email');
+        return $this->belongsTo(User::class, 'email', 'email');
     }
 }

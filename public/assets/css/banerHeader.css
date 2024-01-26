@@ -1,0 +1,88 @@
+#bannerBawahDisplay {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.displayGambarKeteranganKiri {
+    display: flex;
+    width: 64.75rem;
+    height: 22.6875rem;
+    background: url("/assets/img/FrameKiri.png"), lightgray 50% / cover no-repeat;
+    border-radius: 0rem 26rem 0rem 0rem;
+    z-index: 3;
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
+
+  .displayGambarKeteranganKiriWisata {
+    display: flex;
+    width: 64.75rem;
+    height: 22.6875rem;
+    background: url("/assets/img/photo4wisata.jpeg"), lightgray 50% / cover no-repeat;
+    border-radius: 0rem 26rem 0rem 0rem;
+    z-index: 3;
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
+
+  .displayGambarTengah {
+    width: 62.94625rem;
+    height: 22.6875rem;
+    border-radius: 7.625rem 20rem 0rem 0rem;
+    background: #D9D9D9 / no-repeat;
+    z-index: 2;
+    margin-left: -70rem;
+  }
+
+  .displayGambarKanan {
+    width: 73.55013rem;
+    height: 22.6875rem;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-left: -10.20rem;
+    border-radius: 2.625rem 0rem 0rem 0rem;
+    background: url("/assets/img/FrameKanan.png"), lightgray 50% / cover no-repeat;
+  }
+
+  .displayGambarKananWisata {
+    width: 73.55013rem;
+    height: 22.6875rem;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-left: -10.20rem;
+    border-radius: 2.625rem 0rem 0rem 0rem;
+    background: url("/assets/img/gambarKananWisata.png"), lightgray 50% / cover no-repeat;
+  }
+
+  #judulDIsplayGambarKiri {
+    display: flex;
+    margin-top: 8.56rem;
+    margin-left: 24.7rem;
+    margin-bottom: 8.62rem;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "DM Serif Display";
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 5.46875rem */
+  }
+
+  #judulDIsplayGambarKanan {
+    display: flex;
+    margin-top: 8.56rem;
+    margin-right: 19.69rem;
+    margin-bottom: 8.62rem;
+    margin-left: 34.25rem;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "DM Serif Display";
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 5.46875rem */
+  }

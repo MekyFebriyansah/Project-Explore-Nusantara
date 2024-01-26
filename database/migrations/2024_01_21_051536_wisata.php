@@ -18,11 +18,11 @@ return new class extends Migration
             $table->string('judul_wisata');
             $table->text('deskripsi_wisata');
             $table->text('gambar_wisata1');
-            $table->text('gambar_wisata2');
-            $table->text('gambar_wisata3');
-            $table->text('gambar_wisata4');
-            $table->text('gambar_wisata5');
-            $table->text('gambar_wisata6');
+            $table->text('gambar_wisata2')->nullable();
+            $table->text('gambar_wisata3')->nullable();
+            $table->text('gambar_wisata4')->nullable();
+            $table->text('gambar_wisata5')->nullable();
+            $table->text('gambar_wisata6')->nullable();
             $table->timestamps();
             $table->integer('lihat_wisata');
             $table->text('link_gmaps_wisata');

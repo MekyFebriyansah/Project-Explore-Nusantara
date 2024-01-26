@@ -18,11 +18,11 @@ return new class extends Migration
             $table->string('judul_blog');
             $table->text('deskripsi_blog');
             $table->text('gambar_blog1');
-            $table->text('gambar_blog2');
-            $table->text('gambar_blog3');
-            $table->text('gambar_blog4');
-            $table->text('gambar_blog5');
-            $table->text('gambar_blog6');
+            $table->text('gambar_blog2')->nullable();
+            $table->text('gambar_blog3')->nullable();
+            $table->text('gambar_blog4')->nullable();
+            $table->text('gambar_blog5')->nullable();
+            $table->text('gambar_blog6')->nullable();
             $table->timestamps();
             $table->integer('lihat_blog');
             $table->string('email');

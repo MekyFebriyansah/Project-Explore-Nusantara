@@ -176,6 +176,8 @@
 
 .isiteksBlogAnda1 {
     width: 59.625rem;
+    max-height: 8.5rem;
+    word-wrap: break-word;
     color: #4d5053;
     text-align: justify;
     font-family: Jost;
@@ -192,7 +194,6 @@
 
 .tombolSelengkapnya {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;

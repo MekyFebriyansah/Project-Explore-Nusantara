@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('assets/css/semuaBlog.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/banerHeader.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/navigasi.css') }}" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
@@ -16,6 +17,7 @@
 <body>
     <div id="semuaBlog">
         @include('bagian.navigasiAuth')
+        @include('bagian.banerHeaderBlog')
         <div class="tekssemuaBlog">
             Dari pantai-pantai tropis yang memukau hingga pegunungan yang menakjubkan, melalui perjalanan visual dan naratif yang memukau, mengungkapkan keindahan panorama alamnya yang menakjubkan, dari pantai-pantai mempesona hingga gunung-gung megah yang memikat. Kami juga akan memperkenalkan Anda pada kekayaan budaya Indonesia, dari tradisi yang kuno hingga keunikan kuliner yang lezat.
         </div>

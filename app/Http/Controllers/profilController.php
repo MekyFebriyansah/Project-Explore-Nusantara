@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Profil;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
 
@@ -11,7 +12,9 @@ class profilController extends Controller
 {
     public function pindah_profil()
     {
-        $profil = Profil::first();
+        $user = Auth::user();
+        $profil = Profil::where('email', $user->email)->first();
+        
         return view('profil', compact('profil'));
     }
 
@@ -27,7 +30,15 @@ class profilController extends Controller
         'gambar_profil' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
     ]);
 
-    $profil = Profil::first(); 
+    $user = Auth::user();
+
+    $profil = Profil::where('email', $user->email)->first();
+
+    // Check if the profile exists
+    if (!$profil) {
+        return redirect()->back()->with('error', 'Profile not found.');
+    }
+
     $profil->nama = $request->nama;
     $profil->alamat = $request->alamat;
     $profil->tempat_lahir = $request->tempat_lahir;
@@ -50,4 +61,5 @@ class profilController extends Controller
 
     return redirect()->back()->with('success', 'Profil berhasil diperbarui.');
 }
+
 }

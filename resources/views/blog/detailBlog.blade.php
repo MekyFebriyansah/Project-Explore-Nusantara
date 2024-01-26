@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('assets/css/detailBlog.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/banerHeader.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/navigasi.css') }}" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
@@ -15,13 +16,16 @@
 <body>
     <div id="detailBlog">
         @include('bagian.navigasiAuth')
-        <div class="kotakDatadetailBlog">
+        @include('bagian.banerHeaderBlog')
+        <div class="kotakDatadetailBlog" style="margin-top: 3.12rem">
             <div class="kontenInfo">
                 <div class="nilaiKotakDatadetailBlog">{{ $blog->created_at->diffForHumans() }}</div>
-                <div class="nilaiKotakDatadetailBlog">
-                    {{ $blog->lihat_blog }}
-                </div>
             </div>
+            <br>
+            <div class="nilaiKotakDatadetailBlog">
+                {{ $blog->lihat_blog }} Kali dikunjungi
+            </div>
+            <br>
         <div class="kotakdetailBlog">
             <div class="tanggaldetailBlog">{{ $blog->created_at->format('d F Y') }}</div>
             <div class="tanggaldetailBlog">  
