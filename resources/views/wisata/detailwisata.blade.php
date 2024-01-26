@@ -39,6 +39,9 @@
         <div class="gambardetailBlog">
             <img src="{{ asset($wisata->gambar_wisata1) }}" alt="">
         </div>
+        <button class="tulisantambahkan" type="submit">
+            Tambahkan  ->
+        </button>
         @include('bagian.footer')
     </div>
 </body>

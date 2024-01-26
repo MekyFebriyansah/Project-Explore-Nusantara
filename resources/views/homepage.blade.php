@@ -69,7 +69,7 @@
               </svg>
           </div>
         </div>
-      </div>
+    </div>
     <br><br>
     <div class="nusantaraindonesia"><p>Nusantara Indonesia</p></div>
     <div class="keindahanalam"><p>keindahan alam dan kekayaan budaya</p></div><br><br>
