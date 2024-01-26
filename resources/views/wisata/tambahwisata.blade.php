@@ -48,7 +48,7 @@
                         @endforeach
                     </select>
                 </div>
-                <<div class="tulisangmapsBlog">
+                <div class="tulisangmapsBlog">
                     Masukkan Link G-Maps
                 </div>
                 <div class="inputgmapsBlog">

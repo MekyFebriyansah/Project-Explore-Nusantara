@@ -16,7 +16,11 @@ class tambahwisataController extends Controller
 
     public function listWisata()
     {
-        $provinsiOptions = ['Jambi', 'Sumatera Barat', 'Bali', 'Papua', 'Jakarta'];
+        $provinsiOptions = ['Nanggroe Aceh Darussalam', 'Sumatera Utara', 'Sumatra Selatan', 'Sumatra Barat', 'Bengkulu', 'Riau', 'Kepulauan Riau',
+        'Jambi', 'Lampung', 'Bangka Belitung', 'Kalimantan Barat', 'Kalimantan Timur', 'Kalimantan Selatan', 'Kalimantan Tengah', 'Banten', 'DKI Jakarta', 
+        'Jawa Barat', 'Jawa Tengah', 'Daerah Istimewa Yogyakarta', 'Jawa Timur', 'Bali', 'Nusa Tenggara Timur', 'Nusa Tenggara Barat', 'Gorontalo', 'Sulawesi Barat',
+        'Sulawesi Tengah', 'Sulawesi Utara', 'Sulawesi Tenggara', 'Sulawesi Selatan', 'Maluku Utara', 'Maluku', 'Papua Barat', 'Papua', 'Papua Tengah', 'Papua Pegunungan',
+        'Papua Selatan', 'Papua Barat Daya'];
         return ['provinsiOptions' => $provinsiOptions];
     }
 

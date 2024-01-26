@@ -290,11 +290,10 @@
 }
 
 .inputdeskripsiBlog input {
-    display: flex;
-    width: 50.375rem;
+    display: grid;
+    width: 5.375rem;
     height: 8.1875rem;
     padding: 1rem 1.3125rem;
-    align-items: center;
     gap: 0.625rem;
     border-radius: 0.625rem;
     border: 1px solid #474749;
@@ -306,6 +305,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    writing-mode: vertical-rl;
 }
 
 .tambahkanBlog {
